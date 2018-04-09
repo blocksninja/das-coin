@@ -202,10 +202,61 @@
         <file alias="about_qt">res/icons/trad/about_qt.png</file>
         <file alias="verify">res/icons/trad/verify.png</file>
     </qresource>
+    <qresource prefix="/icons/tribe">
+        <file alias="address-book">res/icons/tribe/address-book.png</file>
+        <file alias="quit">res/icons/tribe/quit.png</file>
+        <file alias="send">res/icons/tribe/send.png</file>
+        <file alias="connect_0">res/icons/tribe/connect0_16.png</file>
+        <file alias="connect_1">res/icons/tribe/connect1_16.png</file>
+        <file alias="connect_2">res/icons/tribe/connect2_16.png</file>
+        <file alias="connect_3">res/icons/tribe/connect3_16.png</file>
+        <file alias="connect_4">res/icons/tribe/connect4_16.png</file>
+        <file alias="transaction_0">res/icons/tribe/transaction0.png</file>
+        <file alias="transaction_confirmed">res/icons/tribe/transaction2.png</file>
+        <file alias="transaction_conflicted">res/icons/tribe/transaction_conflicted.png</file>
+        <file alias="transaction_1">res/icons/tribe/clock1.png</file>
+        <file alias="transaction_2">res/icons/tribe/clock2.png</file>
+        <file alias="transaction_3">res/icons/tribe/clock3.png</file>
+        <file alias="transaction_4">res/icons/tribe/clock4.png</file>
+        <file alias="transaction_5">res/icons/tribe/clock5.png</file>
+        <file alias="eye">res/icons/tribe/eye.png</file>
+        <file alias="eye_minus">res/icons/tribe/eye_minus.png</file>
+        <file alias="eye_plus">res/icons/tribe/eye_plus.png</file>
+        <file alias="options">res/icons/tribe/configure.png</file>
+        <file alias="receiving_addresses">res/icons/tribe/receive.png</file>
+        <file alias="editpaste">res/icons/tribe/editpaste.png</file>
+        <file alias="editcopy">res/icons/tribe/editcopy.png</file>
+        <file alias="add">res/icons/tribe/add.png</file>
+        <file alias="edit">res/icons/tribe/edit.png</file>
+        <file alias="history">res/icons/tribe/history.png</file>
+        <file alias="masternodes">res/icons/tribe/masternodes.png</file>
+        <file alias="overview">res/icons/tribe/overview.png</file>
+        <file alias="export">res/icons/tribe/export.png</file>
+        <file alias="synced">res/icons/tribe/synced.png</file>
+        <file alias="remove">res/icons/tribe/remove.png</file>
+        <file alias="tx_mined">res/icons/tribe/tx_mined.png</file>
+        <file alias="tx_input">res/icons/tribe/tx_input.png</file>
+        <file alias="tx_output">res/icons/tribe/tx_output.png</file>
+        <file alias="tx_inout">res/icons/tribe/tx_inout.png</file>
+        <file alias="lock_closed">res/icons/tribe/lock_closed.png</file>
+        <file alias="lock_open">res/icons/tribe/lock_open.png</file>
+        <file alias="key">res/icons/tribe/key.png</file>
+        <file alias="filesave">res/icons/tribe/filesave.png</file>
+        <file alias="debugwindow">res/icons/tribe/debugwindow.png</file>
+        <file alias="drkblue_editpaste">res/icons/tribe/drkblue_editpaste.png</file>
+        <file alias="drkblue_address-book">res/icons/tribe/drkblue_address-book.png</file>
+        <file alias="drkblue_editcopy">res/icons/tribe/drkblue_editcopy.png</file>
+        <file alias="drkblue_remove">res/icons/tribe/drkblue_remove.png</file>
+        <file alias="browse">res/icons/tribe/browse.png</file>
+        <file alias="about">res/icons/tribe/about.png</file>
+        <file alias="about_qt">res/icons/tribe/about_qt.png</file>
+        <file alias="verify">res/icons/tribe/verify.png</file>
+    </qresource>
     <qresource prefix="/css">
         <file alias="drkblue">res/css/drkblue.css</file>
         <file alias="crownium">res/css/crownium.css</file>
         <file alias="light">res/css/light.css</file>
+        <file alias="tribe">res/css/tribe.css</file>
     </qresource>
     <qresource prefix="/images/drkblue">
         <file alias="about">res/images/drkblue/about.png</file>
@@ -265,6 +316,28 @@
         <file alias="splash">res/images/trad/splash.png</file>
         <file alias="splash_testnet">res/images/trad/splash_testnet.png</file>
     </qresource>
+    <qresource prefix="/images/tribe">
+        <file alias="about">res/images/tribe/about.png</file>
+        <file alias="logo_horizontal">res/images/tribe/logo_horizontal.png</file>
+        <file alias="drkblue_walletFrame_bg">res/images/tribe/drkblue_walletFrame_bg.png</file>
+        <file alias="splash">res/images/tribe/splash.png</file>
+        <file alias="splash_testnet">res/images/tribe/splash_testnet.png</file>
+    </qresource>
+    <qresource prefix="/images/tribe">
+        <file alias="about">res/images/tribe/about.png</file>
+        <file alias="das_logo_horizontal">res/images/tribe/logo_horizontal.png</file>
+        <file alias="unchecked">res/images/tribe/unchecked.png</file>
+        <file alias="checked">res/images/tribe/checked.png</file>
+        <file alias="drkblue_downArrow">res/images/tribe/drkblue_downArrow.png</file>
+        <file alias="drkblue_downArrow_small">res/images/tribe/drkblue_downArrow_small.png</file>
+        <file alias="drkblue_upArrow_small">res/images/tribe/drkblue_upArrow_small.png</file>
+        <file alias="drkblue_leftArrow_small">res/images/tribe/drkblue_leftArrow_small.png</file>
+        <file alias="drkblue_rightArrow_small">res/images/tribe/drkblue_rightArrow_small.png</file>
+        <file alias="drkblue_qtreeview_selected">res/images/tribe/drkblue_qtreeview_selected.png</file>
+        <file alias="drkblue_walletFrame_bg">res/images/tribe/drkblue_walletFrame_bg.png</file>
+        <file alias="splash">res/images/tribe/splash.png</file>
+        <file alias="splash_testnet">res/images/tribe/splash_testnet.png</file>
+    </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>
         <file alias="spinner-001">res/movies/spinner-001.png</file>
@@ -302,5 +375,12 @@
         <file alias="spinner-033">res/movies/spinner-033.png</file>
         <file alias="spinner-034">res/movies/spinner-034.png</file>
         <file alias="spinner-035">res/movies/spinner-035.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="roboto_bold">res/fonts/Roboto-Bold.ttf</file>
+        <file alias="roboto_light">res/fonts/Roboto-Light.ttf</file>
+        <file alias="roboto_medium">res/fonts/Roboto-Medium.ttf</file>
+        <file alias="roboto_regular">res/fonts/Roboto-Regular.ttf</file>
+        <file alias="roboto_thin">res/fonts/Roboto-Thin.ttf</file>
     </qresource>
 </RCC>

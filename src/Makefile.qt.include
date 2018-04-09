@@ -357,7 +357,55 @@ RES_ICONS = \
   qt/res/icons/trad/tx_mined.png \
   qt/res/icons/trad/about.png \
   qt/res/icons/trad/about_qt.png \
-  qt/res/icons/trad/verify.png
+  qt/res/icons/trad/verify.png \
+  qt/res/icons/tribe/tx_inout.png \
+  qt/res/icons/tribe/tx_input.png \
+  qt/res/icons/tribe/tx_mined.png \
+  qt/res/icons/tribe/tx_output.png \
+  qt/res/icons/tribe/add.png \
+  qt/res/icons/tribe/address-book.png \
+  qt/res/icons/tribe/browse.png \
+  qt/res/icons/tribe/clock1.png \
+  qt/res/icons/tribe/clock2.png \
+  qt/res/icons/tribe/clock3.png \
+  qt/res/icons/tribe/clock4.png \
+  qt/res/icons/tribe/clock5.png \
+  qt/res/icons/tribe/configure.png \
+  qt/res/icons/tribe/connect0_16.png \
+  qt/res/icons/tribe/connect1_16.png \
+  qt/res/icons/tribe/connect2_16.png \
+  qt/res/icons/tribe/connect3_16.png \
+  qt/res/icons/tribe/connect4_16.png \
+  qt/res/icons/tribe/debugwindow.png \
+  qt/res/icons/tribe/drkblue_editpaste.png \
+  qt/res/icons/tribe/drkblue_address-book.png \
+  qt/res/icons/tribe/drkblue_editcopy.png \
+  qt/res/icons/tribe/drkblue_remove.png \
+  qt/res/icons/tribe/edit.png \
+  qt/res/icons/tribe/editcopy.png \
+  qt/res/icons/tribe/editpaste.png \
+  qt/res/icons/tribe/export.png \
+  qt/res/icons/tribe/eye.png \
+  qt/res/icons/tribe/eye_minus.png \
+  qt/res/icons/tribe/eye_plus.png \
+  qt/res/icons/tribe/filesave.png \
+  qt/res/icons/tribe/history.png \
+  qt/res/icons/tribe/key.png \
+  qt/res/icons/tribe/lock_closed.png \
+  qt/res/icons/tribe/lock_open.png \
+  qt/res/icons/tribe/masternodes.png \
+  qt/res/icons/tribe/overview.png \
+  qt/res/icons/tribe/quit.png \
+  qt/res/icons/tribe/receive.png \
+  qt/res/icons/tribe/remove.png \
+  qt/res/icons/tribe/send.png \
+  qt/res/icons/tribe/synced.png \
+  qt/res/icons/tribe/transaction0.png \
+  qt/res/icons/tribe/transaction2.png \
+  qt/res/icons/tribe/transaction_conflicted.png \
+  qt/res/icons/tribe/about.png \
+  qt/res/icons/tribe/about_qt.png \
+  qt/res/icons/tribe/verify.png
 
 BITCOIN_QT_CPP = \
   qt/bantablemodel.cpp \
@@ -468,12 +516,33 @@ RES_IMAGES = \
   qt/res/images/trad/drkblue_leftArrow_small.png \
   qt/res/images/trad/drkblue_rightArrow_small.png \
   qt/res/images/trad/drkblue_qtreeview_selected.png \
-  qt/res/images/trad/drkblue_walletFrame_bg.png
+  qt/res/images/trad/drkblue_walletFrame_bg.png \
+  qt/res/images/tribe/about.png \
+  qt/res/images/tribe/unchecked.png \
+  qt/res/images/tribe/checked.png \
+  qt/res/images/tribe/logo_horizontal.png \
+  qt/res/images/tribe/drkblue_downArrow.png \
+  qt/res/images/tribe/drkblue_downArrow_small.png \
+  qt/res/images/tribe/drkblue_upArrow_small.png \
+  qt/res/images/tribe/drkblue_leftArrow_small.png \
+  qt/res/images/tribe/drkblue_rightArrow_small.png \
+  qt/res/images/tribe/drkblue_qtreeview_selected.png \
+  qt/res/images/tribe/drkblue_walletFrame_bg.png \
+  qt/res/images/tribe/splash_testnet.png \
+  qt/res/images/tribe/splash.png
 
 RES_CSS = \
   qt/res/css/drkblue.css \
   qt/res/css/crownium.css \
-  qt/res/css/light.css
+  qt/res/css/light.css \
+  qt/res/css/tribe.css
+
+RES_FONTS = \
+  qt/res/fonts/Roboto-Bold.ttf \
+  qt/res/fonts/Roboto-Light.ttf \
+  qt/res/fonts/Roboto-Medium.ttf \
+  qt/res/fonts/Roboto-Regular.ttf \
+  qt/res/fonts/Roboto-Thin.ttf
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)
 
@@ -487,7 +556,7 @@ qt_libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INC
 qt_libbitcoinqt_a_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
 qt_libbitcoinqt_a_SOURCES = $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(QT_FORMS_UI) \
-  $(QT_QRC) $(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES)
+  $(QT_QRC) $(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_FONTS) $(RES_MOVIES)
 
 nodist_qt_libbitcoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
   $(PROTOBUF_H) $(QT_QRC_CPP) $(QT_QRC_LOCALE_CPP)

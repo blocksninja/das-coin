@@ -900,6 +900,13 @@ QString loadStyleSheet()
         settings.setValue("theme", "light");
     }
     
+    // Load fonts
+    QFontDatabase::addApplicationFont(":/fonts/roboto_bold");
+    QFontDatabase::addApplicationFont(":/fonts/roboto_light");
+    QFontDatabase::addApplicationFont(":/fonts/roboto_medium");
+    QFontDatabase::addApplicationFont(":/fonts/roboto_regular");
+    QFontDatabase::addApplicationFont(":/fonts/roboto_thin");
+
     QFile qFile(cssName);      
     if (qFile.open(QFile::ReadOnly)) {
         styleSheet = QLatin1String(qFile.readAll());

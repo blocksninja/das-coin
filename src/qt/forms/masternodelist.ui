@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>723</width>
-    <height>457</height>
+    <width>996</width>
+    <height>555</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,24 +32,17 @@
       <number>0</number>
      </property>
      <item>
-      <spacer name="horizontalSpacer0">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
       <widget class="QTabWidget" name="tabWidget">
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;</string>
+       </property>
        <property name="currentIndex">
         <number>0</number>
        </property>
        <widget class="QWidget" name="tabMyMasternodes">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <attribute name="title">
          <string>My Masternodes</string>
         </attribute>
@@ -67,7 +60,7 @@
              <item>
               <widget class="QLabel" name="updateNote">
                <property name="text">
-                <string>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</string>
+                <string>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;MISSING&quot; in &quot;Status&quot; field.</string>
                </property>
               </widget>
              </item>
@@ -81,11 +74,14 @@
                <height>0</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
              <property name="editTriggers">
               <set>QAbstractItemView::NoEditTriggers</set>
              </property>
              <property name="alternatingRowColors">
-              <bool>true</bool>
+              <bool>false</bool>
              </property>
              <property name="selectionMode">
               <enum>QAbstractItemView::SingleSelection</enum>
@@ -93,14 +89,14 @@
              <property name="selectionBehavior">
               <enum>QAbstractItemView::SelectRows</enum>
              </property>
+             <property name="showGrid">
+              <bool>false</bool>
+             </property>
              <property name="sortingEnabled">
               <bool>true</bool>
              </property>
              <attribute name="horizontalHeaderStretchLastSection">
               <bool>true</bool>
-             </attribute>
-             <attribute name="ResizeMode">
-              <enum>QHeaderView::Interactive</enum>
              </attribute>
              <column>
               <property name="text">
@@ -206,29 +202,35 @@
         </layout>
        </widget>
        <widget class="QWidget" name="tabAllMasternodes">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <attribute name="title">
          <string>All Masternodes</string>
         </attribute>
         <layout class="QGridLayout" name="gridLayout">
          <item row="1" column="0">
           <widget class="QTableWidget" name="tableWidgetMasternodes">
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;</string>
+           </property>
            <property name="editTriggers">
             <set>QAbstractItemView::NoEditTriggers</set>
            </property>
            <property name="alternatingRowColors">
-            <bool>true</bool>
+            <bool>false</bool>
            </property>
            <property name="selectionBehavior">
             <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+           <property name="showGrid">
+            <bool>false</bool>
            </property>
            <property name="sortingEnabled">
             <bool>true</bool>
            </property>
            <attribute name="horizontalHeaderStretchLastSection">
             <bool>true</bool>
-           </attribute>
-           <attribute name="ResizeMode">
-            <enum>QHeaderView::Interactive</enum>
            </attribute>
            <column>
             <property name="text">
@@ -313,6 +315,19 @@
         </layout>
        </widget>
       </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer0">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
     </layout>
    </item>
