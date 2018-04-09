@@ -318,13 +318,6 @@
     </qresource>
     <qresource prefix="/images/tribe">
         <file alias="about">res/images/tribe/about.png</file>
-        <file alias="logo_horizontal">res/images/tribe/logo_horizontal.png</file>
-        <file alias="drkblue_walletFrame_bg">res/images/tribe/drkblue_walletFrame_bg.png</file>
-        <file alias="splash">res/images/tribe/splash.png</file>
-        <file alias="splash_testnet">res/images/tribe/splash_testnet.png</file>
-    </qresource>
-    <qresource prefix="/images/tribe">
-        <file alias="about">res/images/tribe/about.png</file>
         <file alias="das_logo_horizontal">res/images/tribe/logo_horizontal.png</file>
         <file alias="unchecked">res/images/tribe/unchecked.png</file>
         <file alias="checked">res/images/tribe/checked.png</file>
