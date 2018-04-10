@@ -88,10 +88,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     
     /* Theme selector */
     ui->theme->addItem(QString("Default"), QVariant("tribe"));
-    ui->theme->addItem(QString("Light"), QVariant("light"));
-    ui->theme->addItem(QString("Blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("Traditional"), QVariant("trad"));
+    // ui->theme->addItem(QString("Light"), QVariant("light"));
+    // ui->theme->addItem(QString("Blue"), QVariant("drkblue"));
+    // ui->theme->addItem(QString("Crownium"), QVariant("crownium"));
+    // ui->theme->addItem(QString("Traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");
