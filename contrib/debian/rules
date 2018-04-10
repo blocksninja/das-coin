@@ -2,11 +2,11 @@
 # -*- mode: makefile; coding: utf-8 -*-
 
 #DEB_MAKE_CHECK_TARGET = test_das
-#build/dasd::
+#build/tribed::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_das)
 
-DEB_INSTALL_EXAMPLES_dasd += debian/examples/*
-DEB_INSTALL_MANPAGES_dasd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_tribed += debian/examples/*
+DEB_INSTALL_MANPAGES_tribed += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

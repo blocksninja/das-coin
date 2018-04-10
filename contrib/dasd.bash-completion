@@ -1,11 +1,11 @@
-# bash programmable completion for dasd(1) and das-cli(1)
+# bash programmable completion for tribed(1) and das-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have dasd && {
+have tribed && {
 
-# call $dasd for RPC
+# call $tribed for RPC
 _das_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
@@ -16,7 +16,7 @@ _das_rpc() {
                 ;;
         esac
     done
-    $dasd "${rpcargs[@]}" "$@"
+    $tribed "${rpcargs[@]}" "$@"
 }
 
 # Add das accounts to COMPREPLY
@@ -26,13 +26,13 @@ _das_accounts() {
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_dasd() {
+_tribed() {
     local cur prev words=() cword
-    local dasd
+    local tribed
 
-    # save and use original argument to invoke dasd
-    # dasd might not be in $PATH
-    dasd="$1"
+    # save and use original argument to invoke tribed
+    # tribed might not be in $PATH
+    tribed="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -114,7 +114,7 @@ _dasd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($dasd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($tribed --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
@@ -133,7 +133,7 @@ _dasd() {
     esac
 }
 
-complete -F _dasd dasd das-cli
+complete -F _tribed tribed das-cli
 }
 
 # Local variables:

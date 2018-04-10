@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package dasd/das-qt
-for Debian-based Linux systems. If you compile dasd/das-qt yourself, there are some useful files here.
+This directory contains files used to package tribed/das-qt
+for Debian-based Linux systems. If you compile tribed/das-qt yourself, there are some useful files here.
 
 ## das: URI support ##
 

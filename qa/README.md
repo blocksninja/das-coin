@@ -20,9 +20,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave dasds and test.* datadir on exit or error
-  --noshutdown          Don't stop dasds after the test execution
-  --srcdir=SRCDIR       Source directory containing dasd/das-cli
+  --nocleanup           Leave tribeds and test.* datadir on exit or error
+  --noshutdown          Don't stop tribeds after the test execution
+  --srcdir=SRCDIR       Source directory containing tribed/das-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -47,7 +47,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall dasd
+killall tribed
 ```
 
 Writing tests

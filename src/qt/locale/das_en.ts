@@ -4730,7 +4730,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use dasd, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <source>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=dasrpc
@@ -4741,7 +4741,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Tribe Alert&quot; admin@foo.com
 </source>
-        <translation>To use dasd, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=dasrpc

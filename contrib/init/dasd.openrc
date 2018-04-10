@@ -5,23 +5,23 @@
 if [ -d "/var/lib/das/.das" ]; then
 	BITCOIND_DEFAULT_DATADIR="/var/lib/das/.das"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/dasd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/tribed"
 fi
 
 BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/das/das.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/dasd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/dasd.pid}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/tribed}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/tribed.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
 BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-das}}
 BITCOIND_GROUP=${BITCOIND_GROUP:-das}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/dasd}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/tribed}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
 name="Tribe Core Daemon"
 description="Tribe cryptocurrency P2P network daemon"
 
-command="/usr/bin/dasd"
+command="/usr/bin/tribed"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dasd."
+		eerror "ERROR: You must set a secure rpcpassword to run tribed."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

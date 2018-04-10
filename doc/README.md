@@ -15,8 +15,8 @@ You need the Qt4 run-time libraries to run Tribe-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/das-qt (GUI, 32-bit) or bin/32/dasd (headless, 32-bit)
-- bin/64/das-qt (GUI, 64-bit) or bin/64/dasd (headless, 64-bit)
+- bin/32/das-qt (GUI, 32-bit) or bin/32/tribed (headless, 32-bit)
+- bin/64/das-qt (GUI, 64-bit) or bin/64/tribed (headless, 64-bit)
 
 
 

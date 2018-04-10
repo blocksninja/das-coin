@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dasd.service
-Upstart: dasd.conf
-OpenRC:  dasd.openrc
-         dasd.openrcconf
-CentOS:  dasd.init
-OS X:    org.das.dasd.plist
+SystemD: tribed.service
+Upstart: tribed.conf
+OpenRC:  tribed.openrc
+         tribed.openrcconf
+CentOS:  tribed.init
+OS X:    org.das.tribed.plist
 
 have been made available to assist packagers in creating node packages here.
 

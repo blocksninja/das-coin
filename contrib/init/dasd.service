@@ -7,9 +7,9 @@ User=das
 Group=das
 
 Type=forking
-PIDFile=/var/lib/dasd/dasd.pid
-ExecStart=/usr/bin/dasd -daemon -pid=/var/lib/dasd/dasd.pid \
--conf=/etc/das/das.conf -datadir=/var/lib/dasd -disablewallet
+PIDFile=/var/lib/tribed/tribed.pid
+ExecStart=/usr/bin/tribed -daemon -pid=/var/lib/tribed/tribed.pid \
+-conf=/etc/das/das.conf -datadir=/var/lib/tribed -disablewallet
 
 Restart=always
 PrivateTmp=true

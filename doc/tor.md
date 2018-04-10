@@ -37,11 +37,11 @@ outgoing connections be anonymized, but more is possible.
 An example how to start the client if the Tor proxy is running on local host on
 port 9050 and only allows .onion nodes to connect:
 
-	./dasd -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=ssapp53tmftyjmjb.onion
+	./tribed -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=ssapp53tmftyjmjb.onion
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-	./dasd -proxy=127.0.0.1:9050
+	./tribed -proxy=127.0.0.1:9050
 
 
 2. Run a das hidden server
@@ -56,7 +56,7 @@ config file):
 	HiddenServicePort 19399 127.0.0.1:19399
 
 The directory can be different of course, but (both) port numbers should be equal to
-your dasd's P2P listen port (9399 by default).
+your tribed's P2P listen port (9399 by default).
 
 	-externalip=X   You can tell das about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -78,25 +78,25 @@ your dasd's P2P listen port (9399 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./dasd -proxy=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -listen
+	./tribed -proxy=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -listen
 
 (obviously, replace the Onion address with your own). It should be noted that you still
 listen on all devices and another node could establish a clearnet connection, when knowing
 your address. To mitigate this, additionally bind the address of your Tor proxy:
 
-	./dasd ... -bind=127.0.0.1
+	./tribed ... -bind=127.0.0.1
 
 If you don't care too much about hiding your node, and want to be reachable on IPv4
 as well, use `discover` instead:
 
-	./dasd ... -discover
+	./tribed ... -discover
 
 and open port 9399 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./dasd -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
+	./tribed -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
 3. List of known das Tor relays

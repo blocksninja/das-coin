@@ -9,7 +9,7 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libbitcoinconsensus.pc
 endif
 
-BITCOIND_BIN=$(top_builddir)/src/dasd$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/tribed$(EXEEXT)
 BITCOIN_QT_BIN=$(top_builddir)/src/qt/das-qt$(EXEEXT)
 BITCOIN_CLI_BIN=$(top_builddir)/src/das-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)

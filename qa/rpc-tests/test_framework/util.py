@@ -115,7 +115,7 @@ def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    dasd and das-cli must be in search path.
+    tribed and das-cli must be in search path.
     """
 
     if (not os.path.isdir(os.path.join("cache","node0"))
@@ -129,15 +129,15 @@ def initialize_chain(test_dir):
                 shutil.rmtree(os.path.join("cache","node"+str(i)))
 
         devnull = open(os.devnull, "w")
-        # Create cache directories, run dasds:
+        # Create cache directories, run tribeds:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("TRIBED", "dasd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("TRIBED", "tribed"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: dasd started, calling das-cli -rpcwait getblockcount"
+                print "initialize_chain: tribed started, calling das-cli -rpcwait getblockcount"
             subprocess.check_call([ os.getenv("TRIBECLI", "das-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
             if os.getenv("PYTHON_DEBUG", ""):
@@ -214,18 +214,18 @@ def _rpchost_to_args(rpchost):
 
 def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=None):
     """
-    Start a dasd and return RPC connection to it
+    Start a tribed and return RPC connection to it
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("TRIBED", "dasd")
+        binary = os.getenv("TRIBED", "tribed")
     # RPC tests still depend on free transactions
     args = [ binary, "-datadir="+datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-blockprioritysize=50000" ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     devnull = open(os.devnull, "w")
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: dasd started, calling das-cli -rpcwait getblockcount"
+        print "start_node: tribed started, calling das-cli -rpcwait getblockcount"
     subprocess.check_call([ os.getenv("TRIBECLI", "das-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
@@ -243,7 +243,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
 
 def start_nodes(num_nodes, dirname, extra_args=None, rpchost=None, binary=None):
     """
-    Start multiple dasds, return RPC connections to them
+    Start multiple tribeds, return RPC connections to them
     """
     if extra_args is None: extra_args = [ None for i in range(num_nodes) ]
     if binary is None: binary = [ None for i in range(num_nodes) ]

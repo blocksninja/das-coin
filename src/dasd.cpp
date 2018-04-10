@@ -85,7 +85,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dasd [options]                     " + _("Start Tribe Core Daemon") + "\n";
+                  "  tribed [options]                     " + _("Start Tribe Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -131,7 +131,7 @@ bool AppInit(int argc, char* argv[])
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in dasd anymore. Use the das-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in tribed anymore. Use the das-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -189,7 +189,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect dasd signal handlers
+    // Connect tribed signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);
