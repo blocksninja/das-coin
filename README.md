@@ -14,7 +14,7 @@ are carried out collectively by the network. Tribe Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Tribe Core software, see https://github.com/blocksninja/das-coin.
+the Tribe Core software, see https://github.com/blocksninja/tribe-coin.
 
 
 License
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/blocksninja/das-coin/tags) are created to indicate new official,
+[Tags](https://github.com/blocksninja/tribe-coin/tags) are created to indicate new official,
 stable release versions of Tribe Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

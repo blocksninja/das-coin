@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare i das</translation>
+        <translation>Scegli l'indirizzo a cui inviare i tribe</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere das</translation>
+        <translation>Scegli l'indirizzo con cui ricevere tribe</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your Tribe addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Tribe per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i das.</translation>
+        <translation>Questi sono i tuoi indirizzi Tribe per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i tribe.</translation>
     </message>
     <message>
         <source>These are your Tribe addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -188,7 +188,7 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
         <translation>Tribe adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
     </message>
     <message>
@@ -256,15 +256,15 @@
     </message>
     <message>
         <source>Send coins to a Tribe address</source>
-        <translation>Spedire das ad un indirizzo Tribe</translation>
+        <translation>Spedire tribe ad un indirizzo Tribe</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Richieste di pagamenti (genera codici QR e das: URLs)</translation>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
+        <translation>Richieste di pagamenti (genera codici QR e tribe: URLs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -435,8 +435,8 @@
         <translation>Apri &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
-        <translation>Apri un das: URI o una richiesta di pagamento</translation>
+        <source>Open a tribe: URI or payment request</source>
+        <translation>Apri un tribe: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1220,9 +1220,9 @@ Indirizzo: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui: 
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1494,8 +1494,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
-        <translation>Impossibile avviare das: gestore click-to-pay</translation>
+        <source>Cannot start tribe: click-to-pay handler</source>
+        <translation>Impossibile avviare tribe: gestore click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2083,7 +2083,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia das</translation>
+        <translation>Invia tribe</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2291,7 +2291,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Conferma l'invio di das</translation>
+        <translation>Conferma l'invio di tribe</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2401,8 +2401,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Messaggio:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
-        <translation>Un messaggio allegato con l'URI das che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Tribe.</translation>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>Un messaggio allegato con l'URI tribe che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Tribe.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3115,7 +3115,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia das</translation>
+        <translation>Invia tribe</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 TRIBE.</source>
@@ -3158,7 +3158,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>

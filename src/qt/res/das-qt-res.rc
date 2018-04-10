@@ -21,10 +21,10 @@ BEGIN
             VALUE "CompanyName",        "Tribe"
             VALUE "FileDescription",    "Tribe Core (GUI node for Tribe)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "das-qt"
+            VALUE "InternalName",       "tribe-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "das-qt.exe"
+            VALUE "OriginalFilename",   "tribe-qt.exe"
             VALUE "ProductName",        "Tribe Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

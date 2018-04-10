@@ -395,7 +395,7 @@ void static BitcoinMiner(const CChainParams& chainparams)
 {
     LogPrintf("TribeMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("das-miner");
+    RenameThread("tribe-miner");
 
     unsigned int nExtraNonce = 0;
 

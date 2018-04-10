@@ -250,7 +250,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             total += subtotal;
         }
         else
-        {   // User-entered das address / amount:
+        {   // User-entered tribe address / amount:
             if(!validateAddress(rcp.address))
             {
                 return InvalidAddress;
@@ -360,7 +360,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction &tran
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
             }
-            else if (!rcp.message.isEmpty()) // Message from normal das:URI (das:XyZ...?message=example)
+            else if (!rcp.message.isEmpty()) // Message from normal tribe:URI (tribe:XyZ...?message=example)
             {
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
             }

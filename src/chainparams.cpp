@@ -122,8 +122,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xe5a5eda714b503cba8f94fd77ea3160107a2052eb3f7fd59c96ab7e05945ad6f"));
 
 
-        vSeeds.push_back(CDNSSeedData("das-seed-01.blocks.ninja", "13.81.82.28"));
-        vSeeds.push_back(CDNSSeedData("das-seed-02.blocks.ninja", "13.95.198.229"));
+        vSeeds.push_back(CDNSSeedData("tribe-seed-01.blocks.ninja", "13.81.82.28"));
+        vSeeds.push_back(CDNSSeedData("tribe-seed-02.blocks.ninja", "13.95.198.229"));
 
 
         // Tribe addresses start with 'D'
@@ -220,20 +220,20 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         
-        vSeeds.push_back(CDNSSeedData("das-seed-01.blocks.ninja", "13.81.82.28"));
-        vSeeds.push_back(CDNSSeedData("das-seed-02.blocks.ninja", "13.95.198.229"));
+        vSeeds.push_back(CDNSSeedData("tribe-seed-01.blocks.ninja", "13.81.82.28"));
+        vSeeds.push_back(CDNSSeedData("tribe-seed-02.blocks.ninja", "13.95.198.229"));
         
-        // Testnet das addresses start with 'y'
+        // Testnet tribe addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-        // Testnet das script addresses start with '8' or '9'
+        // Testnet tribe script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Testnet das BIP32 pubkeys start with 'DPUB'
+        // Testnet tribe BIP32 pubkeys start with 'DPUB'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3A)(0x59)(0xEA)(0x14).convert_to_container<std::vector<unsigned char> >();
-        // Testnet das BIP32 prvkeys start with 'DPRV'
+        // Testnet tribe BIP32 prvkeys start with 'DPRV'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3A)(0x58)(0xF3)(0x42).convert_to_container<std::vector<unsigned char> >();
-        // Testnet das BIP44 coin type is '5' (All coin's testnet default)
+        // Testnet tribe BIP44 coin type is '5' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >(); 
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -324,15 +324,15 @@ public:
             0,
             0
         };
-        // Regtest das addresses start with 'y'
+        // Regtest tribe addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-        // Regtest das script addresses start with '8' or '9'
+        // Regtest tribe script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Regtest das BIP32 pubkeys start with 'DPUB'
+        // Regtest tribe BIP32 pubkeys start with 'DPUB'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3A)(0x59)(0xEA)(0x14).convert_to_container<std::vector<unsigned char> >();
-        // Regtest das BIP32 prvkeys start with 'DPRV'
+        // Regtest tribe BIP32 prvkeys start with 'DPRV'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3A)(0x58)(0xF3)(0x42).convert_to_container<std::vector<unsigned char> >();
    }
 };

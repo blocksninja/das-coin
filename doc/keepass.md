@@ -12,7 +12,7 @@ The implementation is dependent on the following:
 
 ###What's new###
 
-The following new options are available for tribed and das-qt:
+The following new options are available for tribed and tribe-qt:
  - _-keepass_ Use KeePass 2 integration using KeePassHttp plugin (default: 0)
  - _-keepassport=_ Connect to KeePassHttp on port (default: 19455)
  - _-keepasskey=_ KeePassHttp key for AES encrypted communication with KeePass
@@ -27,22 +27,22 @@ The following rpc commands are available:
 
 ###How to setup###
 
-Sample initialization flow from _das-qt_ console (this needs to be done only once to set up the association):
+Sample initialization flow from _tribe-qt_ console (this needs to be done only once to set up the association):
 
  - Have KeePass running with an open database
- - Start _das-qt_
+ - Start _tribe-qt_
  - Open console
- - Type "_keepass init_" in das-qt console
+ - Type "_keepass init_" in tribe-qt console
  - Keepass pops up and asks for an association id, fill that in, for example, "_mydrkwallet_"
- - You should get a response like this "_Association successful. Id: mydrkwalletdas - Key: AgQkcs6cI7v9tlSYKjG/+s8wJrGALHl3jLosJpPLzUE=_"
- - Edit _das.conf_ and fill in these values
+ - You should get a response like this "_Association successful. Id: mydrkwallettribe - Key: AgQkcs6cI7v9tlSYKjG/+s8wJrGALHl3jLosJpPLzUE=_"
+ - Edit _tribe.conf_ and fill in these values
 ```
 keepass=1
 keepasskey=AgQkcs6cI7v9tlSYKjG/+s8wJrGALHl3jLosJpPLzUE=
 keepassid=mydrkwallet
 keepassname=testwallet
 ```
- - Restart _das-qt_
+ - Restart _tribe-qt_
 
 At this point, the association is made. The next action depends on your particular situation:
 
@@ -51,4 +51,4 @@ At this point, the association is made. The next action depends on your particul
 
 At this point, the passphrase is stored in KeePassHttp. When Unlocking the wallet, one can use _keepass_ as the passphrase to trigger retrieval of the password. This works from the RPC commands as well as the GUI.
 
-Extended guide with screenshots is also available: https://dastalk.org/threads/keepass-integration.3620/
+Extended guide with screenshots is also available: https://tribetalk.org/threads/keepass-integration.3620/

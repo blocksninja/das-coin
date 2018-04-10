@@ -1,7 +1,7 @@
 The [pull-tester](/qa/pull-tester/) folder contains a script to call
 multiple tests from the [rpc-tests](/qa/rpc-tests/) folder.
 
-Every pull request to the das repository is built and run through
+Every pull request to the tribe repository is built and run through
 the regression test suite. You can also run all or only individual
 tests locally.
 
@@ -22,7 +22,7 @@ Possible options:
   -h, --help            show this help message and exit
   --nocleanup           Leave tribeds and test.* datadir on exit or error
   --noshutdown          Don't stop tribeds after the test execution
-  --srcdir=SRCDIR       Source directory containing tribed/das-cli
+  --srcdir=SRCDIR       Source directory containing tribed/tribe-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made

@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>For anonymization only</source>
-        <translation>Endast för anonymisering</translation>
+        <translation>Entribet för anonymisering</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
         <translation>Tribe kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Tribe stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
@@ -252,7 +252,7 @@
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
         <translation>Begär betalningar (genererar QR-koder och Tribe:-URI:s)</translation>
     </message>
     <message>
@@ -404,7 +404,7 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
+        <source>Open a tribe: URI or payment request</source>
         <translation>Öppna en Tribe-URI eller betalningsbegäran</translation>
     </message>
     <message>
@@ -513,7 +513,7 @@ Adress: %4
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>Plånboken är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt; endast för anonymisering</translation>
+        <translation>Plånboken är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt; entribet för anonymisering</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -822,7 +822,7 @@ Adress: %4
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Den associerade adressen med den här adresslistans post. Detta kan endast ändras för avsändaradresser.</translation>
+        <translation>Den associerade adressen med den här adresslistans post. Detta kan entribet ändras för avsändaradresser.</translation>
     </message>
     <message>
         <source>New receiving address</source>
@@ -940,7 +940,7 @@ Adress: %4
     </message>
     <message>
         <source>Tribe Core will download and store a copy of the Tribe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Tribe Core kommer att laddas ned och lagra en kopia av Tribe:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <translation>Tribe Core kommer att ladtribe ned och lagra en kopia av Tribe:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1078,7 +1078,7 @@ Adress: %4
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Visa endast en systemfältikon vid fönsterminimering.</translation>
+        <translation>Visa entribet en systemfältikon vid fönsterminimering.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
@@ -1086,7 +1086,7 @@ Adress: %4
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimera applikationen istället för att stänga ner den när fönstret stängs. När detta alternativ är aktiverat kommer applikationen endast att stängas efter att man väljer Avsluta i menyn.</translation>
+        <translation>Minimera applikationen istället för att stänga ner den när fönstret stängs. När detta alternativ är aktiverat kommer applikationen entribet att stängas efter att man väljer Avsluta i menyn.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1106,9 +1106,9 @@ Adress: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
-        <translation>Kan inte starta das: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start tribe: click-to-pay handler</source>
+        <translation>Kan inte starta tribe: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1840,7 +1840,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend kräver att denna mängd avrundas uppåt till närmaste %1)</translation>
+        <translation>(darksend kräver att denna mängd avruntribe uppåt till närmaste %1)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -1884,7 +1884,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubblettadress hittad, kan endast skicka till en adress åt gången vid varje sändningshandling.</translation>
+        <translation>Dubblettadress hittad, kan entribet skicka till en adress åt gången vid varje sändningshandling.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1958,7 +1958,7 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
         <translation>Ett meddelande som bifogades till Tribe: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Tribe-nätverket.</translation>
     </message>
     <message>
@@ -2005,7 +2005,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med att inte skriva på någonting oklart då phishing-attacker kan försöka lura dig till att skriva över din identitet till dem. Signera endast väldetaljerade uppgifter du samtycker till.</translation>
+        <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med att inte skriva på någonting oklart då phishing-attacker kan försöka lura dig till att skriva över din identitet till dem. Signera entribet väldetaljerade uppgifter du samtycker till.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2105,7 +2105,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Signaturen kunde inte avkodas.</translation>
+        <translation>Signaturen kunde inte avkotribe.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -2287,7 +2287,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererade mynt måste vänta %1 block innan de kan användas. När du genererade detta block utsändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer dess tillstånd att ändras till "ej accepterad" och kommer inte att kunna spenderas. Detta kan ibland hända om en annan nod genererar ett block inom ett par sekunder från ditt.</translation>
+        <translation>Genererade mynt måste vänta %1 block innan de kan använtribe. När du genererade detta block utsändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer dess tillstånd att ändras till "ej accepterad" och kommer inte att kunna spenderas. Detta kan ibland hända om en annan nod genererar ett block inom ett par sekunder från ditt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2656,7 +2656,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
@@ -2811,7 +2811,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Anslut endast till specifik(a) nod(er)</translation>
+        <translation>Anslut entribet till specifik(a) nod(er)</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>

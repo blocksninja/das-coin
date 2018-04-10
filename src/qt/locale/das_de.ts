@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Verhindert das einfache Überweisen von Geld, falls das Systemkonto kompromittiert wurde. Bietet keine wirkliche Sicherheit.</translation>
+        <translation>Verhindert tribe einfache Überweisen von Geld, falls tribe Systemkonto kompromittiert wurde. Bietet keine wirkliche Sicherheit.</translation>
     </message>
     <message>
         <source>For anonymization only</source>
@@ -181,15 +181,15 @@
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
+        <translation>Sind Sie sich sicher, tribes Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Wallet verschlüsselt</translation>
     </message>
     <message>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>Tribe wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Tribe durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
+        <translation>Tribe wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, tribes die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Tribe durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -263,8 +263,8 @@
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "das:"-URIs)</translation>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "tribe:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -364,7 +364,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tribe addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Tribe-Adressen signiert wurden</translation>
+        <translation>Nachrichten verifizieren, um sicherzustellen, tribes diese mit den angegebenen Tribe-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,8 +443,8 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
-        <translation>Eine "das:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a tribe: URI or payment request</source>
+        <translation>Eine "tribe:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -741,7 +741,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;Darksend wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem Darksend verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  das Ankreuzfeld "Darksend" erneut auswählen.</translation>
+        <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;Darksend wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem Darksend verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  tribe Ankreuzfeld "Darksend" erneut auswählen.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -809,7 +809,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Tribe bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
+        <translation>Tribe bedeutet, tribes eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -1052,7 +1052,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Tribe Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Tribe Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <translation>Da dies tribe erste Mal ist, tribes Sie Tribe Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
         <source>Tribe Core will download and store a copy of the Tribe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
@@ -1162,7 +1162,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Wenn Sie das Ausgeben von unbestätigtem Wechselgeld deaktivieren, kann das Wechselgeld einer &lt;br/&gt; Transaktion nicht verwendet werden, bis es mindestens eine Bestätigung erhalten hat.&lt;br/&gt;Dies wirkt sich auf die Berechnung des Kontostands aus.</translation>
+        <translation>Wenn Sie tribe Ausgeben von unbestätigtem Wechselgeld deaktivieren, kann tribe Wechselgeld einer &lt;br/&gt; Transaktion nicht verwendet werden, bis es mindestens eine Bestätigung erhalten hat.&lt;br/&gt;Dies wirkt sich auf die Berechnung des Kontostands aus.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1234,7 +1234,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Nur ein Symbol im Infobereich anzeigen, nachdem das Programmfenster minimiert wurde.</translation>
+        <translation>Nur ein Symbol im Infobereich anzeigen, nachdem tribe Programmfenster minimiert wurde.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
@@ -1242,7 +1242,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie das Programm über "Beenden" im Menü schließen.</translation>
+        <translation>Minimiert die Anwendung anstatt sie zu beenden wenn tribe Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie tribe Programm über "Beenden" im Menü schließen.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1262,9 +1262,9 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1451,7 +1451,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Starte/Stoppe das Mixen</translation>
+        <translation>Starte/Stoppe tribe Mixen</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
@@ -1471,7 +1471,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Aktuellen Darksend Status zurücksetzen (wenn der Prozess des Mixens bereits begonnen hat kann es passieren, dass Darksend unterbrochen wird. Bereits gezahlte Gebühren werden einbehalten!) </translation>
+        <translation>Aktuellen Darksend Status zurücksetzen (wenn der Prozess des Mixens bereits begonnen hat kann es passieren, tribes Darksend unterbrochen wird. Bereits gezahlte Gebühren werden einbehalten!) </translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1567,7 +1567,7 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
+        <source>Cannot start tribe: click-to-pay handler</source>
         <translation>Tribe kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
@@ -2035,7 +2035,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tribe network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Tribe-Netzwerk gesendet.</translation>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über tribe Tribe-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,7 +2047,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Tribe network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Tribe-Netzwerk gesendet.</translation>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über tribe Tribe-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2260,7 +2260,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird tribe Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -2291,8 +2291,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for das transactions than the network can process.</source>
-        <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for tribe transactions than the network can process.</source>
+        <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie tribes wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2416,7 +2416,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(Darksend verlangt, dass dieser Betrag auf den nächsten %1 aufgerundet wird)</translation>
+        <translation>(Darksend verlangt, tribes dieser Betrag auf den nächsten %1 aufgerundet wird)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2489,7 +2489,7 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fehler: das Wallet wurde nur zum Anonymisieren entsperrt.</translation>
+        <translation>Fehler: tribe Wallet wurde nur zum Anonymisieren entsperrt.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -2559,8 +2559,8 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
-        <translation>Eine an die "das:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Tribe-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>Eine an die "tribe:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über tribe Tribe-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2670,7 +2670,7 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tribe address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Tribe-Adresse signiert wurde</translation>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, tribes diese mit der angegebenen Tribe-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2919,7 +2919,7 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte Tribe müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine Tribe gutgeschrieben bekommen. Tribe kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte Tribe müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an tribe Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine Tribe gutgeschrieben bekommen. Tribe kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3277,7 +3277,7 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 TRIBE.</source>
-        <translation>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 TRIBE begrenzt.</translation>
+        <translation>InstantX unterstützt tribe Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 TRIBE begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Tribe Core is probably already running.</source>
-        <translation>Tribe Programm kann das Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft das Programm bereits.</translation>
+        <translation>Tribe Programm kann tribe Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft tribe Programm bereits.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3383,7 +3383,7 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Tribe Core is probably already running.</source>
-        <translation>Tribe Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
+        <translation>Tribe Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft tribe Programm bereits.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3710,10 +3710,10 @@ Dies kann passieren, wenn einige Tribe aus ihrer Wallet bereits ausgegeben wurde
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <source>To use tribed, or the -server option to tribe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dasrpc
+rpcuser=triberpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3721,13 +3721,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Tribe Alert" admin@foo.com
 </source>
-        <translation>Um tribed (oder das-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
+        <translation>Um tribed (oder tribe-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
-Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=dasrpc
+Es wird empfohlen tribe folgende Zufallspasswort zu verwenden:
+rpcuser=triberpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
-Der Benutzername und das Passwort dürfen NICHT identisch sein.
+Der Benutzername und tribe Passwort dürfen NICHT identisch sein.
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
 Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtigt zu werden;
 zum Beispiel: alertnotify=echo %%s | mail -s \"Tribe Alert\" admin@foo.com</translation>
@@ -3896,7 +3896,7 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"Tribe Alert\" admin@foo.com</tran
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Fehlerhafter oder kein Genesis-Block gefunden. Falsches Datenverzeichnis für das Netzwerk?</translation>
+        <translation>Fehlerhafter oder kein Genesis-Block gefunden. Falsches Datenverzeichnis für tribe Netzwerk?</translation>
     </message>
     <message>
         <source>Information</source>
@@ -4157,7 +4157,7 @@ Tribe Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Tribe Core to complete</source>
-        <translation>Die Wallet musste neu geschrieben werden. Bitte das Programm neu starten um den Vorgang abzuschließen</translation>
+        <translation>Die Wallet musste neu geschrieben werden. Bitte tribe Programm neu starten um den Vorgang abzuschließen</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4265,7 +4265,7 @@ Tribe Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Kein Kapital gefunden, dass zerstückelt werden muss.</translation>
+        <translation>Kein Kapital gefunden, tribes zerstückelt werden muss.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
@@ -4457,7 +4457,7 @@ Tribe Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Wallet auf das neueste Format aktualisieren</translation>
+        <translation>Wallet auf tribe neueste Format aktualisieren</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>

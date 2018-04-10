@@ -1,5 +1,5 @@
 Bitcoin version 0.4.4 is now available for download at:
-http://luke.dasjr.org/programs/bitcoin/files/bitcoind-0.4.4/
+http://luke.tribejr.org/programs/bitcoin/files/bitcoind-0.4.4/
 
 This is a bugfix-only release based on 0.4.0.
 

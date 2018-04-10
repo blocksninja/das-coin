@@ -15,7 +15,7 @@
 #include "util.h"
 #include "utilstrencodings.h"
 
-#include "test/test_das.h"
+#include "test/test_tribe.h"
 
 #include <fstream>
 

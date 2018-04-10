@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collateral_output) and index.
 
 ### Enter your Masternode details into your masternode.conf file
-[From the das github repo](https://github.com/daspay/das/blob/master/doc/masternode_conf.md)
+[From the tribe github repo](https://github.com/tribepay/tribe/blob/master/doc/masternode_conf.md)
 
 `masternode.conf` format is a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index.
 
@@ -110,20 +110,20 @@ mn01 127.0.0.1:9399 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84
 mn02 127.0.0.2:9399 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0
 ```
 
-## What about the das.conf file?
+## What about the tribe.conf file?
 
-If you are using a `masternode.conf` file you no longer need the `das.conf` file. The exception is if you need custom settings (_thanks oblox_). In that case you **must** remove `masternode=1` from local `das.conf` file. This option should be used only to start local Hot masternode now.
+If you are using a `masternode.conf` file you no longer need the `tribe.conf` file. The exception is if you need custom settings (_thanks oblox_). In that case you **must** remove `masternode=1` from local `tribe.conf` file. This option should be used only to start local Hot masternode now.
 
-## Update das.conf on server
+## Update tribe.conf on server
 
-If you generated a new masternode private key, you will need to update the remote `das.conf` files.
+If you generated a new masternode private key, you will need to update the remote `tribe.conf` files.
 
 Shut down the daemon and then edit the file.
 
-```nano .das/das.conf```
+```nano .tribe/tribe.conf```
 
 ### Edit the masternodeprivkey
-If you generated a new masternode private key, you will need to update the `masternodeprivkey` value in your remote `das.conf` file.
+If you generated a new masternode private key, you will need to update the `masternodeprivkey` value in your remote `tribe.conf` file.
 
 ## Start your Masternodes
 
@@ -133,9 +133,9 @@ If your remote server is not running, start your remote daemon as you normally w
 
 You can confirm that remote server is on the correct block by issuing
 
-```das-cli getinfo```
+```tribe-cli getinfo```
 
-and comparing with the official explorer at http://explorer.das.org/chain/Tribe
+and comparing with the official explorer at http://explorer.tribe.org/chain/Tribe
 
 ### Local
 
@@ -162,7 +162,7 @@ Example ```masternode start-alias mn01```
 Issue command `masternode status`
 It should return you something like that:
 ```
-das-cli masternode status
+tribe-cli masternode status
 {
     "vin" : "CTxIn(COutPoint(<collateral_output>, <collateral_output_index>), scriptSig=)",
     "service" : "<ipaddress>:<port>",
@@ -174,6 +174,6 @@ Command output should have "_Masternode successfully started_" in its `status` f
 
 ### Local
 
-Search your Masternodes on https://dasninja.pl/masternodes.html
+Search your Masternodes on https://tribeninja.pl/masternodes.html
 
 _Hint: Bookmark it, you definitely will be using this site a lot._

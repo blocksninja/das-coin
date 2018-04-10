@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/tribe-config.h"
 #endif
 
 #include "util.h"
@@ -129,7 +129,7 @@ bool fPrivateSendMultiSession = false;
 std::vector<CAmount> darkSendDenominations;
 string strBudgetMode = "";
 
-const char * const BITCOIN_CONF_FILENAME = "das.conf";
+const char * const BITCOIN_CONF_FILENAME = "tribe.conf";
 const char * const BITCOIN_PID_FILENAME = "tribed.pid";
 
 map<string, string> mapArgs;
@@ -284,8 +284,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "das" is a composite category enabling all Tribe-related debug output
-            if(ptrCategory->count(string("das"))) {
+            // "tribe" is a composite category enabling all Tribe-related debug output
+            if(ptrCategory->count(string("tribe"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));
                 ptrCategory->insert(string("masternode"));
@@ -508,7 +508,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "das";
+    const char* pszModule = "tribe";
 #endif
     if (pex)
         return strprintf(
@@ -643,7 +643,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()){
-        // Create empty das.conf if it does not excist
+        // Create empty tribe.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -655,7 +655,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override das.conf
+        // Don't overwrite existing settings so command line settings override tribe.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

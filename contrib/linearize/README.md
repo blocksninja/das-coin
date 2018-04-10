@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install das_hash
+## Step 0: Install tribe_hash
 
-https://github.com/daspay/das_hash
+https://github.com/tribepay/tribe_hash
 
 ## Step 1: Download hash list
 

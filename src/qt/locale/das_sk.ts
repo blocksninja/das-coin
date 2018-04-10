@@ -188,7 +188,7 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
         <translation>TribeCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
         <translation>Vyžiadať platby (vygeneruje QR kódy a Tribe: URI)</translation>
     </message>
     <message>
@@ -443,8 +443,8 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
-        <translation>Otvoriť das: URI alebo žiadosť o platbu </translation>
+        <source>Open a tribe: URI or payment request</source>
+        <translation>Otvoriť tribe: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1262,9 +1262,9 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1567,7 +1567,7 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
+        <source>Cannot start tribe: click-to-pay handler</source>
         <translation>Tribe sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
@@ -2291,7 +2291,7 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for das transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for tribe transactions than the network can process.</source>
         <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Tribe transakciách väčší ako dokáže sieť Tribe spracovať.</translation>
     </message>
     <message>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
-        <translation>Správa ktorá bola pripojená ku das: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Tribe.</translation>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>Správa ktorá bola pripojená ku tribe: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Tribe.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3319,7 +3319,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
@@ -3709,10 +3709,10 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <source>To use tribed, or the -server option to tribe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dasrpc
+rpcuser=triberpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3720,10 +3720,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Tribe Alert" admin@foo.com
 </source>
-        <translation>Pre použitie možnosti -server pre das-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+        <translation>Pre použitie možnosti -server pre tribe-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodné heslo:
-rpcuser=dasrpc
+rpcuser=triberpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Používateľské meno a heslo NEMÔŽU byť rovnaké.

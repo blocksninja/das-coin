@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</translation>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
+        <translation>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -336,8 +336,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Request payments (generates QR codes and das: URIs)</translation>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
+        <translation>Request payments (generates QR codes and tribe: URIs)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -562,8 +562,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a das: URI or payment request</source>
-        <translation>Open a das: URI or payment request</translation>
+        <source>Open a tribe: URI or payment request</source>
+        <translation>Open a tribe: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1587,9 +1587,9 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start das: click-to-pay handler</source>
-        <translation>Cannot start das: click-to-pay handler</translation>
+        <source>Cannot start tribe: click-to-pay handler</source>
+        <translation>Cannot start tribe: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/projects/p/das/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for das transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for das transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for tribe transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for tribe transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
-        <translation>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</translation>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -4242,9 +4242,9 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
-        <location filename="../dasstrings.cpp" line="+22"/>
+        <location filename="../tribestrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
@@ -4730,10 +4730,10 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <source>To use tribed, or the -server option to tribe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dasrpc
+rpcuser=triberpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4741,10 +4741,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Tribe Alert&quot; admin@foo.com
 </source>
-        <translation>To use tribed, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use tribed, or the -server option to tribe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dasrpc
+rpcuser=triberpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

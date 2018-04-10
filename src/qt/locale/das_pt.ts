@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Escolha o endereço para onde enviar as moedas</translation>
+        <translation>Escolha o endereço para onde enviar as moetribe</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Escolha o endereço onde deseja receber as moedas</translation>
+        <translation>Escolha o endereço onde deseja receber as moetribe</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your Tribe addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços Tribe para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <translation>Estes são os endereços Tribe para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moetribe.</translation>
     </message>
     <message>
         <source>These are your Tribe addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -188,12 +188,12 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Tribe irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas dass contra roubos feitos por malware presente no seu computador.</translation>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tribes from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Tribe irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas tribes contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: Quaisquer copias de segurança feitas anteriormente à sua carteira, devem ser substituídas pelo novo ficheiro cifrado. Por razões de segurança, as copias de segurança anteriores não cifradas ficarão obsoletas assim que comece a usar a nova carteira cifrada,</translation>
+        <translation>IMPORTANTE: Quaisquer copias de segurança feitas anteriormente à sua carteira, devem ser substituítribe pelo novo ficheiro cifrado. Por razões de segurança, as copias de segurança anteriores não cifratribe ficarão obsoletas assim que comece a usar a nova carteira cifrada,</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>As palavras-passe fornecidas não coincidem.</translation>
+        <translation>As palavras-passe fornecitribe não coincidem.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -256,15 +256,15 @@
     </message>
     <message>
         <source>Send coins to a Tribe address</source>
-        <translation>Enviar moedas para um endereço Tribe</translation>
+        <translation>Enviar moetribe para um endereço Tribe</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e das: URIs)</translation>
+        <source>Request payments (generates QR codes and tribe: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e tribe: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -320,7 +320,7 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Cifra as chaves privadas que pertencem à sua carteira</translation>
+        <translation>Cifra as chaves privatribe que pertencem à sua carteira</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -364,7 +364,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tribe addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço Tribe específico</translation>
+        <translation>Verifica mensagens para garantir que foram assinatribe com um endereço Tribe específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,8 +443,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a das: URI or payment request</source>
-        <translation>Abre um das: URI ou solicitação de pagamento</translation>
+        <source>Open a tribe: URI or payment request</source>
+        <translation>Abre um tribe: URI ou solicitação de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -622,7 +622,7 @@ Endereço: %4
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Selecção de Moedas</translation>
+        <translation>Selecção de Moetribe</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -666,7 +666,7 @@ Endereço: %4
     </message>
     <message>
         <source>DS Rounds</source>
-        <translation>Rondas DS</translation>
+        <translation>Rontribe DS</translation>
     </message>
     <message>
         <source>Date</source>
@@ -738,7 +738,7 @@ Endereço: %4
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Entrada não anonimizada seleccionada. &lt;b&gt;O Darksend será desactivado.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se deseja usar o Darksend, por favor desseleccione primeiro todas as entradas não anonimizadas e em seguida volte a marcar a opção Darksend.</translation>
+        <translation>Entrada não anonimizada seleccionada. &lt;b&gt;O Darksend será desactivado.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se deseja usar o Darksend, por favor desseleccione primeiro totribe as entratribe não anonimizatribe e em seguida volte a marcar a opção Darksend.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -814,7 +814,7 @@ Endereço: %4
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transacções com prioridade mais alta tem uma maior probabilidade de ser incluídas num bloco.</translation>
+        <translation>Transacções com prioridade mais alta tem uma maior probabilidade de ser incluítribe num bloco.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
@@ -1034,7 +1034,7 @@ Endereço: %4
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Mostrar ecrã de boas vindas no arranque (omissão: 1)</translation>
+        <translation>Mostrar ecrã de boas vintribe no arranque (omissão: 1)</translation>
     </message>
 </context>
 <context>
@@ -1183,7 +1183,7 @@ Endereço: %4
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Esta opção determina o número de masternodes pelos quais uma entrada será anonimizada. &lt;br/&gt; Mais rondas de anonimização fornecem um maior grau de privacidade, mas também tem um custo mais elevado em taxas.</translation>
+        <translation>Esta opção determina o número de masternodes pelos quais uma entrada será anonimizada. &lt;br/&gt; Mais rontribe de anonimização fornecem um maior grau de privacidade, mas também tem um custo mais elevado em taxas.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1259,9 +1259,9 @@ Endereço: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/das/</source>
+https://www.transifex.com/projects/p/tribe/</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://www.transifex.com/projects/p/das/</translation>
+https://www.transifex.com/projects/p/tribe/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1273,7 +1273,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade subdivisão por omissão para mostrar na interface e no envio de moedas.</translation>
+        <translation>Escolha a unidade subdivisão por omissão para mostrar na interface e no envio de moetribe.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1293,7 +1293,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reiniciar todas as opções do cliente para os valores por omissão.</translation>
+        <translation>Reiniciar totribe as opções do cliente para os valores por omissão.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -1317,7 +1317,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Confirme reinicialização das opções</translation>
+        <translation>Confirme reinicialização tribe opções</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -1360,7 +1360,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Total de transacções que ainda não foram confirmadas e não contam para o saldo disponível</translation>
+        <translation>Total de transacções que ainda não foram confirmatribe e não contam para o saldo disponível</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1376,7 +1376,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Transações não confirmadas para endereços somente de visualização</translation>
+        <translation>Transações não confirmatribe para endereços somente de visualização</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
@@ -1452,7 +1452,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>As denominações que foram submetidas para o Masternode.&lt;br&gt;Para misturar, outros utilizadores terão que submeter denominações iguais.</translation>
+        <translation>As denominações que foram submetitribe para o Masternode.&lt;br&gt;Para misturar, outros utilizadores terão que submeter denominações iguais.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
@@ -1500,7 +1500,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Número insuficiente de entradas para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br/&gt;a anonimizar &lt;span style='color:red;'&gt;%2&lt;/span&gt; em alternativa</translation>
+        <translation>Número insuficiente de entratribe para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br/&gt;a anonimizar &lt;span style='color:red;'&gt;%2&lt;/span&gt; em alternativa</translation>
     </message>
     <message>
         <source>Overall progress</source>
@@ -1516,11 +1516,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Entradas denominadas tem %5 de %n volta em média</numerusform><numerusform>Entradas denominadas tem %5 de %n voltas em média</numerusform></translation>
+        <translation><numerusform>Entratribe denominatribe tem %5 de %n volta em média</numerusform><numerusform>Entratribe denominatribe tem %5 de %n voltas em média</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Encontradas entradas suficientes para anonimizar %1</translation>
+        <translation>Encontratribe entratribe suficientes para anonimizar %1</translation>
     </message>
     <message>
         <source>Mixed</source>
@@ -1564,8 +1564,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Erro na solicitação de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start das: click-to-pay handler</source>
-        <translation>Não é possível iniciar o das: click-to-pay handler</translation>
+        <source>Cannot start tribe: click-to-pay handler</source>
+        <translation>Não é possível iniciar o tribe: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1609,7 +1609,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Solicitações de pagamento não verificadas para scripts de pagamento personalizados não são suportadas.</translation>
+        <translation>Solicitações de pagamento não verificatribe para scripts de pagamento personalizados não são suportatribe.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1929,7 +1929,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Tenta recuperar as chaves privadas a partir de um ficheiro wallet.dat corrompido.</translation>
+        <translation>-salvagewallet: Tenta recuperar as chaves privatribe a partir de um ficheiro wallet.dat corrompido.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
@@ -2088,7 +2088,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Remover as entradas seleccionadas da lista</translation>
+        <translation>Remover as entratribe seleccionatribe da lista</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -2197,7 +2197,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Moedas</translation>
+        <translation>Enviar Moetribe</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2205,11 +2205,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Entradas...</translation>
+        <translation>Entratribe...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>seleccionadas automáticamente</translation>
+        <translation>seleccionatribe automáticamente</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -2421,7 +2421,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>são adicionadas como taxa de transacção</translation>
+        <translation>são adicionatribe como taxa de transacção</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
@@ -2429,7 +2429,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar envio de moedas</translation>
+        <translation>Confirmar envio de moetribe</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 de %2 entradas mostradas)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 de %2 entratribe mostratribe)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2469,11 +2469,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>A transacção foi rejeitada! Isto pode acontecer se algumas das moedas da sua carteira tiverem sido gastas, tal como se usou uma copia do ficheiro wallet.dat e moedas tiverem sido gastas nessa cópia mas não aqui.</translation>
+        <translation>A transacção foi rejeitada! Isto pode acontecer se algumas tribe moetribe da sua carteira tiverem sido gastas, tal como se usou uma copia do ficheiro wallet.dat e moetribe tiverem sido gastas nessa cópia mas não aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Erro: A carteira foi somente desbloqueada para anonimização de moedas.</translation>
+        <translation>Erro: A carteira foi somente desbloqueada para anonimização de moetribe.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
-        <translation>Mensagem que foi anexada ao das: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Tribe.</translation>
+        <source>A message that was attached to the tribe: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>Mensagem que foi anexada ao tribe: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Tribe.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2590,7 +2590,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
+        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhatribe com as quais concorde.</translation>
     </message>
     <message>
         <source>The Tribe address to sign the message with</source>
@@ -2903,7 +2903,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>As moedas geradas tem que amadurecer %1 blocos antes de poderem ser gastas. Quando gerou este bloco, este foi propagado para a rede de modo a ser incluído na cadeia de blocos. Se não foi incluído na cadeia, o seu estado será alterado para "rejeitado" e não será possível gastar as moedas. Isto pode acontecer ocasionalmente quando outro nó gera um bloco a poucos segundos do seu.</translation>
+        <translation>As moetribe geratribe tem que amadurecer %1 blocos antes de poderem ser gastas. Quando gerou este bloco, este foi propagado para a rede de modo a ser incluído na cadeia de blocos. Se não foi incluído na cadeia, o seu estado será alterado para "rejeitado" e não será possível gastar as moetribe. Isto pode acontecer ocasionalmente quando outro nó gera um bloco a poucos segundos do seu.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2915,7 +2915,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Entradas</translation>
+        <translation>Entratribe</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2973,7 +2973,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>A confirmar (%1 de %2 confirmações recomendadas)</translation>
+        <translation>A confirmar (%1 de %2 confirmações recomendatribe)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -3029,7 +3029,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fazer Entradas Colaterais</translation>
+        <translation>Darksend Fazer Entratribe Colaterais</translation>
     </message>
     <message>
         <source>Darksend Create Denominations</source>
@@ -3076,7 +3076,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Todas</translation>
+        <translation>Totribe</translation>
     </message>
     <message>
         <source>Today</source>
@@ -3120,7 +3120,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fazer Entradas Colaterais</translation>
+        <translation>Darksend Fazer Entratribe Colaterais</translation>
     </message>
     <message>
         <source>Darksend Create Denominations</source>
@@ -3243,7 +3243,7 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unidade das quantias. Clique para seleccionar outra unidade.</translation>
+        <translation>Unidade tribe quantias. Clique para seleccionar outra unidade.</translation>
     </message>
 </context>
 <context>
@@ -3257,11 +3257,11 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Moedas</translation>
+        <translation>Enviar Moetribe</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 TRIBE.</source>
-        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitadas a %1 TRIBE.</translation>
+        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitatribe a %1 TRIBE.</translation>
     </message>
 </context>
 <context>
@@ -3304,7 +3304,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
 </context>
 <context>
-    <name>das-core</name>
+    <name>tribe-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
@@ -3315,7 +3315,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>O Darksend usa denominações exactas para enviar fundos, pode necessitar simplesmente de anonimizar mais algumas moedas.</translation>
+        <translation>O Darksend usa denominações exactas para enviar fundos, pode necessitar simplesmente de anonimizar mais algumas moetribe.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3343,7 +3343,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>O InstantX necessita de entradas com pelo menos 6 confirmações, pode ser necessário aguardar mais uns minutos e tentar de novo.</translation>
+        <translation>O InstantX necessita de entratribe com pelo menos 6 confirmações, pode ser necessário aguardar mais uns minutos e tentar de novo.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
@@ -3391,7 +3391,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Aviso: erro ao carregar wallet.dat! Todas as chaves estão correctas mas os dados das transacções ou as entradas do livro de endereços podem estar ausentes ou incorrectas.</translation>
+        <translation>Aviso: erro ao carregar wallet.dat! Totribe as chaves estão correctas mas os dados tribe transacções ou as entratribe do livro de endereços podem estar ausentes ou incorrectas.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
@@ -3427,7 +3427,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Tentar recuperar as chaves privadas a partir de um ficheiro wallet.dat corrompido</translation>
+        <translation>Tentar recuperar as chaves privatribe a partir de um ficheiro wallet.dat corrompido</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3435,7 +3435,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Não é possível denominar: não existem mais entradas compatíveis.</translation>
+        <translation>Não é possível denominar: não existem mais entratribe compatíveis.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3487,7 +3487,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Não carregar a carteira e desabilitar as chamadas RPC</translation>
+        <translation>Não carregar a carteira e desabilitar as chamatribe RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -3499,7 +3499,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Entradas completas.</translation>
+        <translation>Entratribe completas.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -3547,7 +3547,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Erro: Já tem entradas pendentes no conjunto Darksend</translation>
+        <translation>Erro: Já tem entratribe pendentes no conjunto Darksend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3563,7 +3563,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = mantem meta dados das transacções ex. dono da conta e informação das solicitações de pagamento, 2 = elimina os meta dados das transacções)</translation>
+        <translation>(1 = mantem meta dados tribe transacções ex. dono da conta e informação tribe solicitações de pagamento, 2 = elimina os meta dados tribe transacções)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
@@ -3579,11 +3579,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Apaga todas as transacções da carteira e só recupera essas partes da cadeia de blocos com -rescan no arranque</translation>
+        <translation>Apaga totribe as transacções da carteira e só recupera essas partes da cadeia de blocos com -rescan no arranque</translation>
     </message>
     <message>
         <source>Enable instantx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Activar instantx, mostrar confirmações para transacções bloqueadas (bool, default: %s)</translation>
+        <translation>Activar instantx, mostrar confirmações para transacções bloqueatribe (bool, default: %s)</translation>
     </message>
     <message>
         <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
@@ -3591,7 +3591,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Fees (in TRIBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em TRIBE/Kb) inferiores a esta serão consideradas zero para retransmissão (default: %s)</translation>
+        <translation>Taxas (em TRIBE/Kb) inferiores a esta serão consideratribe zero para retransmissão (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3599,7 +3599,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Foram encontradas saídas denominadas não confirmadas, a aguardar pela confirmação para prosseguir.</translation>
+        <translation>Foram encontratribe saítribe denominatribe não confirmatribe, a aguardar pela confirmação para prosseguir.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3619,7 +3619,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Providenciar liquidez para o Darksend misturando moedas continuamente com baixa frequência (0-100, omissão: %u, 1=muito frequente taxas elevadas, 100=pouco frequente, taxas reduzidas)</translation>
+        <translation>Providenciar liquidez para o Darksend misturando moetribe continuamente com baixa frequência (0-100, omissão: %u, 1=muito frequente taxas elevatribe, 100=pouco frequente, taxas reduzitribe)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
@@ -3765,7 +3765,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Gerar moedas (default: %u)</translation>
+        <translation>Gerar moetribe (default: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3997,11 +3997,11 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Apresentadas as seguintes entradas ao masternode:  %u / %d </translation>
+        <translation>Apresentatribe as seguintes entratribe ao masternode:  %u / %d </translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Apresentado ao masternode, esperando por mais entradas ( %u / %d ) %s</translation>
+        <translation>Apresentado ao masternode, esperando por mais entratribe ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
@@ -4157,7 +4157,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Não foram encontradas denominações correspondentes para misturar.</translation>
+        <translation>Não foram encontratribe denominações correspondentes para misturar.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -4253,7 +4253,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Mostrar todas as opções de depuração (uso: --help -help-debug)</translation>
+        <translation>Mostrar totribe as opções de depuração (uso: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -4305,7 +4305,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>As taxas da transacção são demasiado elevadas.</translation>
+        <translation>As taxas da transacção são demasiado elevatribe.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
@@ -4401,7 +4401,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Suas entradas adicionadas com sucesso.</translation>
+        <translation>Suas entratribe adicionatribe com sucesso.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
@@ -4409,7 +4409,7 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>A apagar todas as transacções da carteira...</translation>
+        <translation>A apagar totribe as transacções da carteira...</translation>
     </message>
     <message>
         <source>on startup</source>

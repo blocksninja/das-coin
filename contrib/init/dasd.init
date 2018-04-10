@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  tribed The das core server.
+#  tribed The tribe core server.
 #
 #
 # chkconfig: 345 80 20

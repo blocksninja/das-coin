@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. das_test
+	$(MAKE) -C .. tribe_test
 clean:
-	$(MAKE) -C .. das_test_clean
+	$(MAKE) -C .. tribe_test_clean
 check:
-	$(MAKE) -C .. das_test_check
+	$(MAKE) -C .. tribe_test_check

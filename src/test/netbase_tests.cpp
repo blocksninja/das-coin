@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "netbase.h"
-#include "test/test_das.h"
+#include "test/test_tribe.h"
 
 #include <string>
 

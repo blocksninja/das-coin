@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Tribe"
-            VALUE "FileDescription",    "das-cli (JSON-RPC client for Tribe Core)"
+            VALUE "FileDescription",    "tribe-cli (JSON-RPC client for Tribe Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "das-cli"
+            VALUE "InternalName",       "tribe-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "das-cli.exe"
-            VALUE "ProductName",        "das-cli"
+            VALUE "OriginalFilename",   "tribe-cli.exe"
+            VALUE "ProductName",        "tribe-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -6,7 +6,7 @@ Some notes on how to build Tribe Core in Unix.
 
 Note
 ---------------------
-Always use absolute paths to configure and compile das and the dependencies,
+Always use absolute paths to configure and compile tribe and the dependencies,
 for example, when specifying the the path of the dependency:
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
@@ -24,7 +24,7 @@ make
 make install # optional
 ```
 
-This will build das-qt as well if the dependencies are met.
+This will build tribe-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -115,7 +115,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a das-qt executable will be
+Once these are installed, they will be found by configure and a tribe-qt executable will be
 built by default.
 
 Notes
@@ -143,7 +143,7 @@ It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 ```bash
 TRIBE_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the das directory
+# Pick some path to install BDB to, here we create a directory within the tribe directory
 BDB_PREFIX="${TRIBE_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
@@ -211,7 +211,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, das should be built with a non-executable stack
+    vulnerable buffers are found. By default, tribe should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -227,7 +227,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, das may be compiled in
+When the intention is to run only a P2P node without a wallet, tribe may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet

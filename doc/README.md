@@ -1,7 +1,7 @@
 Tribe Core 0.12.1
 =====================
 
-This is the official reference wallet for Tribe digital currency and comprises the backbone of the Tribe peer-to-peer network. You can [download Tribe Core](https://www.das.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Tribe digital currency and comprises the backbone of the Tribe peer-to-peer network. You can [download Tribe Core](https://www.tribe.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -15,14 +15,14 @@ You need the Qt4 run-time libraries to run Tribe-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/das-qt (GUI, 32-bit) or bin/32/tribed (headless, 32-bit)
-- bin/64/das-qt (GUI, 64-bit) or bin/64/tribed (headless, 64-bit)
+- bin/32/tribe-qt (GUI, 32-bit) or bin/32/tribed (headless, 32-bit)
+- bin/64/tribe-qt (GUI, 64-bit) or bin/64/tribed (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run das-qt.exe.
+Unpack the files into a directory, and then run tribe-qt.exe.
 
 ### OS X
 
@@ -30,10 +30,10 @@ Drag Tribe-Core to your applications folder, and then run Tribe-Core.
 
 ### Need Help?
 
-* See the [Tribe documentation](https://daspay.atlassian.net/wiki/display/DOC)
+* See the [Tribe documentation](https://tribepay.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#daspay](http://webchat.freenode.net?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=daspay).
-* Ask for help on the [TribeTalk](https://dastalk.org/) forums.
+* Ask for help on [#tribepay](http://webchat.freenode.net?channels=tribepay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=tribepay).
+* Ask for help on the [TribeTalk](https://tribetalk.org/) forums.
 
 Building
 ---------------------
@@ -63,8 +63,8 @@ The Tribe repo's [root README](/README.md) contains relevant information on the 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [TribeTalk](https://dastalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#daspay](http://webchat.freenode.net/?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=daspay).
+* Discuss on the [TribeTalk](https://tribetalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#tribepay](http://webchat.freenode.net/?channels=tribepay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=tribepay).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

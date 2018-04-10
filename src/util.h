@@ -12,7 +12,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/tribe-config.h"
 #endif
 
 #include "compat.h"
@@ -250,7 +250,7 @@ std::string GetThreadName();
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("das-%s", name);
+    std::string s = strprintf("tribe-%s", name);
     RenameThread(s.c_str());
     try
     {

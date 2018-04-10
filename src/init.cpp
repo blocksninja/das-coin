@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/tribe-config.h"
 #endif
 
 #include "init.h"
@@ -202,7 +202,7 @@ void PrepareShutdown()
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("das-shutoff");
+    RenameThread("tribe-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopHTTPRPC();
     StopREST();
@@ -509,7 +509,7 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += HelpMessageOpt("-limitdescendantsize=<n>", strprintf("Do not accept transactions if any ancestor would have more than <n> kilobytes of in-mempool descendants (default: %u).", DEFAULT_DESCENDANT_SIZE_LIMIT));
     }
     string debugCategories = "addrman, alert, bench, coindb, db, lock, rand, rpc, selectcoins, mempool, mempoolrej, net, proxy, prune, http, libevent, tor, zmq, "
-                             "das (or specifically: privatesend, instantsend, masternode, keepass, mnpayments, mngovernance)"; // Don't translate these and qt below
+                             "tribe (or specifically: privatesend, instantsend, masternode, keepass, mnpayments, mngovernance)"; // Don't translate these and qt below
     if (mode == HMM_BITCOIN_QT)
         debugCategories += ", qt";
     strUsage += HelpMessageOpt("-debug=<category>", strprintf(_("Output debugging information (default: %u, supplying <category> is optional)"), 0) + ". " +
@@ -557,7 +557,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-enableprivatesend=<n>", strprintf(_("Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)"), fEnablePrivateSend));
     strUsage += HelpMessageOpt("-privatesendmultisession=<n>", strprintf(_("Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)"), fPrivateSendMultiSession));
     strUsage += HelpMessageOpt("-privatesendrounds=<n>", strprintf(_("Use N separate masternodes to anonymize funds  (2-8, default: %u)"), nPrivateSendRounds));
-    strUsage += HelpMessageOpt("-anonymizedasamount=<n>", strprintf(_("Keep N TRIBE anonymized (default: %u)"), nAnonymizeTribeAmount));
+    strUsage += HelpMessageOpt("-anonymizetribeamount=<n>", strprintf(_("Keep N TRIBE anonymized (default: %u)"), nAnonymizeTribeAmount));
     strUsage += HelpMessageOpt("-liquidityprovider=<n>", strprintf(_("Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)"), nLiquidityProvider));
 
     strUsage += HelpMessageGroup(_("InstantSend options:"));
@@ -685,7 +685,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("das-loadblk");
+    RenameThread("tribe-loadblk");
     // -reindex
     if (fReindex) {
         CImportingNow imp;
@@ -864,8 +864,8 @@ void InitParameterInteraction()
         LogPrintf("AppInit2 : parameter interaction: -liquidityprovider=%d -> setting -enableprivatesend=1\n", nLiqProvTmp);
         mapArgs["-privatesendrounds"] = "99999";
         LogPrintf("AppInit2 : parameter interaction: -liquidityprovider=%d -> setting -privatesendrounds=99999\n", nLiqProvTmp);
-        mapArgs["-anonymizedasamount"] = "999999";
-        LogPrintf("AppInit2 : parameter interaction: -liquidityprovider=%d -> setting -anonymizedasamount=999999\n", nLiqProvTmp);
+        mapArgs["-anonymizetribeamount"] = "999999";
+        LogPrintf("AppInit2 : parameter interaction: -liquidityprovider=%d -> setting -anonymizetribeamount=999999\n", nLiqProvTmp);
         mapArgs["-privatesendmultisession"] = "0";
         LogPrintf("AppInit2 : parameter interaction: -liquidityprovider=%d -> setting -privatesendmultisession=0\n", nLiqProvTmp);
     }
@@ -884,7 +884,7 @@ void InitLogging()
     LogPrintf("Tribe version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
 }
 
-/** Initialize das.
+/** Initialize tribe.
  *  @pre Parameters should be parsed and config file should be read.
  */
 bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
@@ -1833,7 +1833,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     fPrivateSendMultiSession = GetBoolArg("-privatesendmultisession", fPrivateSendMultiSession);
     nPrivateSendRounds = GetArg("-privatesendrounds", nPrivateSendRounds);
     nPrivateSendRounds = std::min(std::max(nPrivateSendRounds, 1), 99999);
-    nAnonymizeTribeAmount = GetArg("-anonymizedasamount", nAnonymizeTribeAmount);
+    nAnonymizeTribeAmount = GetArg("-anonymizetribeamount", nAnonymizeTribeAmount);
     nAnonymizeTribeAmount = std::min(std::max(nAnonymizeTribeAmount, 2), 999999);
 
     fEnableInstantSend = GetBoolArg("-enableinstantsend", fEnableInstantSend);
@@ -1880,7 +1880,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     mnpayments.UpdatedBlockTip(chainActive.Tip());
     masternodeSync.UpdatedBlockTip(chainActive.Tip());
 
-    // ********************************************************* Step 11d: start das-privatesend thread
+    // ********************************************************* Step 11d: start tribe-privatesend thread
 
     threadGroup.create_thread(boost::bind(&ThreadCheckDarkSendPool));
 

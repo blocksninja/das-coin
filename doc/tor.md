@@ -10,7 +10,7 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-1. Run das behind a Tor proxy
+1. Run tribe behind a Tor proxy
 ----------------------------------
 
 The first step is running Tribe behind a Tor proxy. This will already make all
@@ -44,24 +44,24 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./tribed -proxy=127.0.0.1:9050
 
 
-2. Run a das hidden server
+2. Run a tribe hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-	HiddenServiceDir /var/lib/tor/das-service/
+	HiddenServiceDir /var/lib/tor/tribe-service/
 	HiddenServicePort 9399 127.0.0.1:9399
 	HiddenServicePort 19399 127.0.0.1:19399
 
 The directory can be different of course, but (both) port numbers should be equal to
 your tribed's P2P listen port (9399 by default).
 
-	-externalip=X   You can tell das about its publicly reachable address using
+	-externalip=X   You can tell tribe about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
-	                /var/lib/tor/das-service/hostname. Onion addresses are given
+	                /var/lib/tor/tribe-service/hostname. Onion addresses are given
 	                preference for your node to advertize itself with, for connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs).
@@ -99,7 +99,7 @@ for normal IPv4/IPv6 communication, use:
 	./tribed -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
-3. List of known das Tor relays
+3. List of known tribe Tor relays
 ------------------------------------
 
 * [darkcoinie7ghp67.onion](http://darkcoinie7ghp67.onion/)

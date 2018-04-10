@@ -352,7 +352,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../das.qrc"/>
+  <include location="../tribe.qrc"/>
  </resources>
  <connections/>
 </ui>

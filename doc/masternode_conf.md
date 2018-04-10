@@ -4,7 +4,7 @@ Multi masternode config
 The multi masternode config allows to control multiple masternodes from a single wallet. The wallet needs to have a valid collaral output of 1000 coins for each masternode. To use this, place a file named `masternode.conf` in the data directory of your install:
  * Windows: %APPDATA%\Tribe\
  * Mac OS: ~/Library/Application Support/Tribe/
- * Unix/Linux: ~/.das/
+ * Unix/Linux: ~/.tribe/
 
 `masternode.conf` format is a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index.
 
@@ -16,7 +16,7 @@ mn3 127.0.0.4:19399 92Da1aYg6sbenP6uwskJgEY2XWB5LwJ7bXRqc3UPeShtHWJDjDv db478e78
 ```
 
 In the example above:
-* the collateral for `mn1` is output `0` of transaction http://test.explorer.das.fr/tx/2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c and it has amount of 1000 TRIBE
+* the collateral for `mn1` is output `0` of transaction http://test.explorer.tribe.fr/tx/2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c and it has amount of 1000 TRIBE
 
 
 The following new RPC commands are supported:
@@ -27,4 +27,4 @@ The following new RPC commands are supported:
 * start-many
 * outputs: list available collateral output transaction ids and corresponding collateral output indexes
 
-When using remote masternode setup, you **must** remove `masternode=1` from local `das.conf` file if you had it there in previous versions. This option should be used only to start local Hot masternode now.
+When using remote masternode setup, you **must** remove `masternode=1` from local `tribe.conf` file if you had it there in previous versions. This option should be used only to start local Hot masternode now.

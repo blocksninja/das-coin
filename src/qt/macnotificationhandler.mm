@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.das.Tribe-Qt";
+        return @"org.tribe.Tribe-Qt";
     } else {
         return [self __bundleIdentifier];
     }

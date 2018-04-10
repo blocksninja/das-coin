@@ -336,16 +336,16 @@ static const CRPCCommand vRPCCommands[] =
 #endif
 
     /* Tribe features */
-    { "das",               "masternode",             &masternode,             true  },
-    { "das",               "masternodelist",         &masternodelist,         true  },
-    { "das",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "das",               "mngovernance",           &mngovernance,           true  },
-    { "das",               "voteraw",                &voteraw,                true  },
-    { "das",               "mnsync",                 &mnsync,                 true  },
-    { "das",               "spork",                  &spork,                  true  },
-    { "das",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "tribe",               "masternode",             &masternode,             true  },
+    { "tribe",               "masternodelist",         &masternodelist,         true  },
+    { "tribe",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "tribe",               "mngovernance",           &mngovernance,           true  },
+    { "tribe",               "voteraw",                &voteraw,                true  },
+    { "tribe",               "mnsync",                 &mnsync,                 true  },
+    { "tribe",               "spork",                  &spork,                  true  },
+    { "tribe",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "das",               "privatesend",            &privatesend,            false },
+    { "tribe",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -567,7 +567,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> das-cli " + methodname + " " + args + "\n";
+    return "> tribe-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

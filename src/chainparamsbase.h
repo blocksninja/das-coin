@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between das-cli and tribed)
+ * CBaseChainParams defines the base parameters (shared between tribe-cli and tribed)
  * of a given instance of the Tribe system.
  */
 class CBaseChainParams

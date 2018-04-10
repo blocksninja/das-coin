@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/tribe-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -128,8 +128,8 @@ void OptionsModel::Init(bool resetSettings)
         else
             settings.setValue("nAnonymizeTribeAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
     }
-    if (!SoftSetArg("-anonymizedasamount", settings.value("nAnonymizeTribeAmount").toString().toStdString()))
-        addOverriddenOption("-anonymizedasamount");
+    if (!SoftSetArg("-anonymizetribeamount", settings.value("nAnonymizeTribeAmount").toString().toStdString()))
+        addOverriddenOption("-anonymizetribeamount");
     nAnonymizeTribeAmount = settings.value("nAnonymizeTribeAmount").toInt();
 
     if (!settings.contains("fPrivateSendMultiSession"))
@@ -185,7 +185,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in das.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in tribe.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

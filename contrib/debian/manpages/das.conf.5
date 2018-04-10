@@ -1,14 +1,14 @@
-.TH TRIBE.CONF "5" "June 2016" "das.conf 0.12"
+.TH TRIBE.CONF "5" "June 2016" "tribe.conf 0.12"
 .SH NAME
-das.conf \- das configuration file
+tribe.conf \- tribe configuration file
 .SH SYNOPSIS
 All command-line options (except for '\-conf') may be specified in a configuration file, and all configuration file options may also be specified on the command line. Command-line options override values set in the configuration file.
 .TP
 The configuration file is a list of 'setting=value' pairs, one per line, with optional comments starting with the '#' character. Please refer to tribed(1) for a up to date list of valid options.
 .TP
-The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, tribed(1) will look for a file named das.conf(5) in the das data directory, but both the data directory and the configuration file path may be changed using the '\-datadir' and '\-conf' command-line arguments.
+The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, tribed(1) will look for a file named tribe.conf(5) in the tribe data directory, but both the data directory and the configuration file path may be changed using the '\-datadir' and '\-conf' command-line arguments.
 .SH LOCATION
-das.conf should be located in $HOME/.das
+tribe.conf should be located in $HOME/.tribe
 
 .SH "SEE ALSO"
 tribed(1)

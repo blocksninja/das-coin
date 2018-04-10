@@ -133,8 +133,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no das: URI
-    if(!uri.isValid() || uri.scheme() != QString("das"))
+    // return if URI is not valid or is no tribe: URI
+    if(!uri.isValid() || uri.scheme() != QString("tribe"))
         return false;
 
     SendCoinsRecipient rv;
@@ -194,13 +194,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert das:// to das:
+    // Convert tribe:// to tribe:
     //
-    //    Cannot handle this later, because das:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because tribe:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("das://", Qt::CaseInsensitive))
+    if(uri.startsWith("tribe://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 7, "das:");
+        uri.replace(0, 7, "tribe:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -208,7 +208,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("das:%1").arg(info.address);
+    QString ret = QString("tribe:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -414,7 +414,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open das.conf with the associated application */
+    /* Open tribe.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
@@ -723,8 +723,8 @@ boost::filesystem::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "das.desktop";
-    return GetAutostartDir() / strprintf("das-%s.lnk", chain);
+        return GetAutostartDir() / "tribe.desktop";
+    return GetAutostartDir() / strprintf("tribe-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -763,7 +763,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a das.desktop file to the autostart directory:
+        // Write a tribe.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
@@ -788,7 +788,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the das app
+    // loop through the list of startup items and try to find the tribe app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -833,7 +833,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add das app to startup item list
+        // add tribe app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {

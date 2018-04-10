@@ -3,13 +3,13 @@ Description=Tribe's distributed currency daemon
 After=network.target
 
 [Service]
-User=das
-Group=das
+User=tribe
+Group=tribe
 
 Type=forking
 PIDFile=/var/lib/tribed/tribed.pid
 ExecStart=/usr/bin/tribed -daemon -pid=/var/lib/tribed/tribed.pid \
--conf=/etc/das/das.conf -datadir=/var/lib/tribed -disablewallet
+-conf=/etc/tribe/tribe.conf -datadir=/var/lib/tribed -disablewallet
 
 Restart=always
 PrivateTmp=true

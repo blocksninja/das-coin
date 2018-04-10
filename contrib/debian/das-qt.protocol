@@ -1,6 +1,6 @@
 [Protocol]
-exec=das-qt '%u'
-protocol=das
+exec=tribe-qt '%u'
+protocol=tribe
 input=none
 output=none
 helper=true

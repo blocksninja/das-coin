@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "das" user
+All three Linux startup configurations assume the existence of a "tribe" user
 and group.  They must be created before attempting to use these scripts.
 The OS X configuration assumes tribed will be set up for the current user.
 
@@ -44,7 +44,7 @@ This allows for running tribed without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/das.conf`.
+see `contrib/debian/examples/tribe.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,21 +54,21 @@ see `contrib/debian/examples/das.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/tribed`  
-Configuration file:  `/etc/das/das.conf`  
+Configuration file:  `/etc/tribe/tribe.conf`  
 Data directory:      `/var/lib/tribed`  
 PID file:            `/var/run/tribed/tribed.pid` (OpenRC and Upstart) or `/var/lib/tribed/tribed.pid` (systemd)  
 Lock file:           `/var/lock/subsys/tribed` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the das user and group.  It is advised for security
+should all be owned by the tribe user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-das user and group.  Access to das-cli and other tribed rpc clients
+tribe user and group.  Access to tribe-cli and other tribed rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/tribed`  
-Configuration file:  `~/Library/Application Support/Tribe/das.conf`  
+Configuration file:  `~/Library/Application Support/Tribe/tribe.conf`  
 Data directory:      `~/Library/Application Support/Tribe`
 Lock file:           `~/Library/Application Support/Tribe/.lock`
 
@@ -109,14 +109,14 @@ setting the TRIBED and FLAGS environment variables in the file
 
 4e) Mac OS X
 
-Copy org.das.tribed.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.das.tribed.plist`.
+Copy org.tribe.tribed.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.tribe.tribed.plist`.
 
 This Launch Agent will cause tribed to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run tribed as the current user.
-You will need to modify org.das.tribed.plist if you intend to use it as a
-Launch Daemon with a dedicated das user.
+You will need to modify org.tribe.tribed.plist if you intend to use it as a
+Launch Daemon with a dedicated tribe user.
 
 5. Auto-respawn
 -----------------------------------

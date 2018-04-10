@@ -6,7 +6,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/das-config.h"
+#include "config/tribe-config.h"
 #endif
 
 #include "amount.h"
@@ -227,7 +227,7 @@ private Q_SLOTS:
     void showPeers();
     void showRepair();
 
-    /** Open external (default) editor with das.conf */
+    /** Open external (default) editor with tribe.conf */
     void showConfEditor();
     /** Open external (default) editor with masternode.conf */
     void showMNConfEditor();

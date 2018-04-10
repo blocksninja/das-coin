@@ -73,9 +73,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Tribe Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  das-cli [options] <command> [params]  " + _("Send command to Tribe Core") + "\n" +
-                  "  das-cli [options] help                " + _("List commands") + "\n" +
-                  "  das-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  tribe-cli [options] <command> [params]  " + _("Send command to Tribe Core") + "\n" +
+                  "  tribe-cli [options] help                " + _("List commands") + "\n" +
+                  "  tribe-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

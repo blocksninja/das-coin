@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.daspay.Tribe-Qt</string>
+  <string>io.tribepay.Tribe-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.das.TribePayment</string>
+      <string>org.tribe.TribePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>das</string>
+        <string>tribe</string>
       </array>
     </dict>
   </array>
@@ -58,7 +58,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.das.paymentrequest</string>
+      <string>org.tribe.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Tribe payment request</string>
       <key>UTTypeConformsTo</key>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-das-payment-request</string>
+        <string>application/x-tribe-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>daspaymentrequest</string>
+          <string>tribepaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.das.paymentrequest</string>
+        <string>org.tribe.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

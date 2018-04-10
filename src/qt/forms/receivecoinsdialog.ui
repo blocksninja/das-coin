@@ -319,7 +319,7 @@
   <tabstop>removeRequestButton</tabstop>
  </tabstops>
  <resources>
-  <include location="../das.qrc"/>
+  <include location="../tribe.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -6,12 +6,12 @@
 # This python code was modified from ArtForz' public domain  half-a-node, as
 # found in the mini-node branch of http://github.com/jgarzik/pynode.
 #
-# NodeConn: an object which manages p2p connectivity to a das node
+# NodeConn: an object which manages p2p connectivity to a tribe node
 # NodeConnCB: a base class that describes the interface for receiving
 #             callbacks with network messages from a NodeConn
 # CBlock, CTransaction, CBlockHeader, CTxIn, CTxOut, etc....:
 #     data structures that should map to corresponding structures in
-#     das/primitives
+#     tribe/primitives
 # msg_block, msg_tx, msg_headers, etc.:
 #     data structures that represent network messages
 # ser_*, deser_*: functions that handle serialization/deserialization
@@ -31,7 +31,7 @@ from threading import Thread
 import logging
 import copy
 
-import das_hash
+import tribe_hash
 
 BIP0031_VERSION = 60000
 MY_VERSION = 70103  # past bip-31 for ping/pong
@@ -61,8 +61,8 @@ def sha256(s):
 def hash256(s):
     return sha256(sha256(s))
 
-def dashash(s):
-    return das_hash.getPoWHash(s)
+def tribehash(s):
+    return tribe_hash.getPoWHash(s)
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
@@ -493,8 +493,8 @@ class CBlockHeader(object):
             r += struct.pack("<I", self.nTime)
             r += struct.pack("<I", self.nBits)
             r += struct.pack("<I", self.nNonce)
-            self.sha256 = uint256_from_str(dashash(r))
-            self.hash = dashash(r)[::-1].encode('hex_codec')
+            self.sha256 = uint256_from_str(tribehash(r))
+            self.hash = tribehash(r)[::-1].encode('hex_codec')
 
     def rehash(self):
         self.sha256 = None

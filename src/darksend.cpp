@@ -41,8 +41,8 @@ CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - TRIBE **********
     Copyright (c) 2014-2015, Tribe Developers
-        eduffield - evan@das.org
-        udjinm6   - udjinm6@das.org
+        eduffield - evan@tribe.org
+        udjinm6   - udjinm6@tribe.org
 */
 
 void CDarksendPool::ProcessMessage(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
@@ -2305,7 +2305,7 @@ void ThreadCheckDarkSendPool()
     fOneThread = true;
 
     // Make this thread recognisable as the PrivateSend thread
-    RenameThread("das-privatesend");
+    RenameThread("tribe-privatesend");
 
     unsigned int c = 0;
 

@@ -1,5 +1,5 @@
 ---
-name: "das-dmg-signer"
+name: "tribe-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,10 +8,10 @@ packages:
 - "faketime"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/daspay/das-detached-sigs.git"
+- "url": "https://github.com/tribepay/tribe-detached-sigs.git"
   "dir": "signature"
 files:
-- "das-osx-unsigned.tar.gz"
+- "tribe-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,8 +28,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=das-osx-unsigned.tar.gz
-  SIGNED=das-osx-signed.dmg
+  UNSIGNED=tribe-osx-unsigned.tar.gz
+  SIGNED=tribe-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
