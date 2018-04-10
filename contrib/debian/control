@@ -32,10 +32,10 @@ Package: dasd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Das is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Das uses peer-to-peer
+ Tribe is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Tribe uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Das Core
+ and issuing money are carried out collectively by the network. Tribe Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, dasd, and the CLI tool
@@ -45,22 +45,22 @@ Package: das-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Das is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Das uses peer-to-peer
+ Tribe is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Tribe uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Das Core
+ and issuing money are carried out collectively by the network. Tribe Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Das-Qt, a GUI for Das based on Qt.
+ This package provides Tribe-Qt, a GUI for Tribe based on Qt.
 
 Package: das-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Das is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Das uses peer-to-peer
+ Tribe is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Tribe uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Das Core
+ and issuing money are carried out collectively by the network. Tribe Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides das-tx, a command-line transaction creation

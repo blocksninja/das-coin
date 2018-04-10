@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Das RPC command dispatcher.
+ * Tribe RPC command dispatcher.
  */
 class CRPCTable
 {

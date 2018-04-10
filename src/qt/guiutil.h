@@ -29,7 +29,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Das Qt UI.
+/** Utility functions used by the Tribe Qt UI.
  */
 namespace GUIUtil
 {

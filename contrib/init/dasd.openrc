@@ -18,8 +18,8 @@ BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/dasd}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="Das Core Daemon"
-description="Das cryptocurrency P2P network daemon"
+name="Tribe Core Daemon"
+description="Tribe cryptocurrency P2P network daemon"
 
 command="/usr/bin/dasd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Das Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Tribe Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

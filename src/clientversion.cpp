@@ -13,7 +13,7 @@
  * for both dasd and das-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Das Core");
+const std::string CLIENT_NAME("Tribe Core");
 
 /**
  * Client version number

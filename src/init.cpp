@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -543,7 +543,7 @@ std::string HelpMessage(HelpMessageMode mode)
     }
     strUsage += HelpMessageOpt("-shrinkdebugfile", _("Shrink debug.log file on client startup (default: 1 when no -debug)"));
     AppendParamsHelpMessages(strUsage, showDebug);
-    strUsage += HelpMessageOpt("-litemode=<n>", strprintf(_("Disable all Das specific functionality (Masternodes, PrivateSend, InstantSend, Budgeting) (0-1, default: %u)"), 0));
+    strUsage += HelpMessageOpt("-litemode=<n>", strprintf(_("Disable all Tribe specific functionality (Masternodes, PrivateSend, InstantSend, Budgeting) (0-1, default: %u)"), 0));
 
     strUsage += HelpMessageGroup(_("Masternode options:"));
     strUsage += HelpMessageOpt("-masternode=<n>", strprintf(_("Enable the client to act as a masternode (0-1, default: %u)"), 0));
@@ -557,7 +557,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-enableprivatesend=<n>", strprintf(_("Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)"), fEnablePrivateSend));
     strUsage += HelpMessageOpt("-privatesendmultisession=<n>", strprintf(_("Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)"), fPrivateSendMultiSession));
     strUsage += HelpMessageOpt("-privatesendrounds=<n>", strprintf(_("Use N separate masternodes to anonymize funds  (2-8, default: %u)"), nPrivateSendRounds));
-    strUsage += HelpMessageOpt("-anonymizedasamount=<n>", strprintf(_("Keep N TRIBE anonymized (default: %u)"), nAnonymizeDasAmount));
+    strUsage += HelpMessageOpt("-anonymizedasamount=<n>", strprintf(_("Keep N TRIBE anonymized (default: %u)"), nAnonymizeTribeAmount));
     strUsage += HelpMessageOpt("-liquidityprovider=<n>", strprintf(_("Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)"), nLiquidityProvider));
 
     strUsage += HelpMessageGroup(_("InstantSend options:"));
@@ -605,7 +605,7 @@ std::string LicenseInfo()
     // todo: remove urls from translations on next change
     return FormatParagraph(strprintf(_("Copyright (C) 2009-%i The Bitcoin Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2014-%i The Das Core Developers"), COPYRIGHT_YEAR)) + "\n" +
+           FormatParagraph(strprintf(_("Copyright (C) 2014-%i The Tribe Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
            FormatParagraph(_("This is experimental software.")) + "\n" +
            "\n" +
@@ -742,7 +742,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 }
 
 /** Sanity checks
- *  Ensure that Das is running in a usable environment with all
+ *  Ensure that Tribe is running in a usable environment with all
  *  necessary library support.
  */
 bool InitSanityCheck(void)
@@ -881,7 +881,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Das version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("Tribe version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
 }
 
 /** Initialize das.
@@ -1149,7 +1149,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. Das Core is shutting down."));
+        return InitError(_("Initialization sanity check failed. Tribe Core is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -1157,7 +1157,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     if (strWalletFile != boost::filesystem::basename(strWalletFile) + boost::filesystem::extension(strWalletFile))
         return InitError(strprintf(_("Wallet %s resides outside data directory %s"), strWalletFile, strDataDir));
 #endif
-    // Make sure only a single Das process is using the data directory.
+    // Make sure only a single Tribe process is using the data directory.
     boost::filesystem::path pathLockFile = GetDataDir() / ".lock";
     FILE* file = fopen(pathLockFile.string().c_str(), "a"); // empty lock file; created if it doesn't exist.
     if (file) fclose(file);
@@ -1166,7 +1166,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
         // Wait maximum 10 seconds if an old wallet is still running. Avoids lockup during restart
         if (!lock.timed_lock(boost::get_system_time() + boost::posix_time::seconds(10)))
-            return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Das Core is probably already running."), strDataDir));
+            return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Tribe Core is probably already running."), strDataDir));
     } catch(const boost::interprocess::interprocess_exception& e) {
         return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.") + " %s.", strDataDir, e.what()));
     }
@@ -1602,10 +1602,10 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
                              " or address book entries might be missing or incorrect."));
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Das Core") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Tribe Core") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Das Core to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart Tribe Core to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }
@@ -1833,8 +1833,8 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     fPrivateSendMultiSession = GetBoolArg("-privatesendmultisession", fPrivateSendMultiSession);
     nPrivateSendRounds = GetArg("-privatesendrounds", nPrivateSendRounds);
     nPrivateSendRounds = std::min(std::max(nPrivateSendRounds, 1), 99999);
-    nAnonymizeDasAmount = GetArg("-anonymizedasamount", nAnonymizeDasAmount);
-    nAnonymizeDasAmount = std::min(std::max(nAnonymizeDasAmount, 2), 999999);
+    nAnonymizeTribeAmount = GetArg("-anonymizedasamount", nAnonymizeTribeAmount);
+    nAnonymizeTribeAmount = std::min(std::max(nAnonymizeTribeAmount, 2), 999999);
 
     fEnableInstantSend = GetBoolArg("-enableinstantsend", fEnableInstantSend);
     nInstantSendDepth = GetArg("-instantsenddepth", nInstantSendDepth);
@@ -1849,7 +1849,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nInstantSendDepth %d\n", nInstantSendDepth);
     LogPrintf("PrivateSend rounds %d\n", nPrivateSendRounds);
-    LogPrintf("Anonymize Das Amount %d\n", nAnonymizeDasAmount);
+    LogPrintf("Anonymize Tribe Amount %d\n", nAnonymizeTribeAmount);
     LogPrintf("Budget Mode %s\n", strBudgetMode);
 
     darkSendPool.InitDenominations();
@@ -1871,7 +1871,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     flatdb3.Load(governance);
     governance.ClearSeen();
 
-    // ********************************************************* Step 11c: update block tip in Das modules
+    // ********************************************************* Step 11c: update block tip in Tribe modules
 
     // force UpdatedBlockTip to initialize pCurrentBlockIndex for DS, MN payments and budgets
     // but don't call it directly to prevent triggering of other listeners like zmq etc.

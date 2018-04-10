@@ -219,7 +219,7 @@ extern const char *REJECT;
  */
 extern const char *SENDHEADERS;
 
-// Das message types
+// Tribe message types
 // TODO: add description
 extern const char *IX;
 extern const char *IXLOCKVOTE;

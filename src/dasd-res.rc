@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Das"
-            VALUE "FileDescription",    "dasd (Das node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Tribe"
+            VALUE "FileDescription",    "dasd (Tribe node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "dasd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

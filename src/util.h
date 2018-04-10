@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,14 +30,14 @@
 #include <boost/signals2/signal.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//Das only features
+//Tribe only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
 extern bool fEnableInstantSend;
 extern int nInstantSendDepth;
 extern int nPrivateSendRounds;
-extern int nAnonymizeDasAmount;
+extern int nAnonymizeTribeAmount;
 extern int nLiquidityProvider;
 extern int nWalletBackups;
 extern bool fEnablePrivateSend;

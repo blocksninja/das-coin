@@ -15,7 +15,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
 	git clone https://github.com/daspay/das.git
 
-###Das maintainers/release engineers, update (commit) version in sources
+###Tribe maintainers/release engineers, update (commit) version in sources
 
 	pushd ./das
 	contrib/verifysfbinaries/verify.sh
@@ -86,7 +86,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-###Build and sign Das Core for Linux, Windows, and OS X:
+###Build and sign Tribe Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit das=v${VERSION} ../das/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../das/contrib/gitian-descriptors/gitian-linux.yml
@@ -190,11 +190,11 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Release sticky on dastalk: https://dastalk.org/index.php?board=1.0 ***TODO***
 
-  - Das-development mailing list
+  - Tribe-development mailing list
 
   - Update title of #daspay on Freenode IRC
 
-  - Optionally reddit /r/Daspay, ... but this will usually sort out itself
+  - Optionally reddit /r/Tribepay, ... but this will usually sort out itself
 
 - Notify flare so that he can start building [the PPAs](https://launchpad.net/~das.org/+archive/ubuntu/das)
 

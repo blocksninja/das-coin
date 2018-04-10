@@ -35,7 +35,7 @@ const char *FILTERADD="filteradd";
 const char *FILTERCLEAR="filterclear";
 const char *REJECT="reject";
 const char *SENDHEADERS="sendheaders";
-// Das message types
+// Tribe message types
 const char *IX="ix";
 const char *IXLOCKVOTE="txlvote";
 const char *SPORK="spork";
@@ -69,7 +69,7 @@ static const char* ppszTypeName[] =
     NetMsgType::TX,
     NetMsgType::BLOCK,
     "filtered block", // Should never occur
-// Das message types
+// Tribe message types
     NetMsgType::IX,
     NetMsgType::IXLOCKVOTE,
     NetMsgType::SPORK,
@@ -111,7 +111,7 @@ const static std::string allNetMessageTypes[] = {
     NetMsgType::FILTERCLEAR,
     NetMsgType::REJECT,
     NetMsgType::SENDHEADERS,
-// Das message types
+// Tribe message types
     NetMsgType::IX,
     NetMsgType::IXLOCKVOTE,
     NetMsgType::SPORK,

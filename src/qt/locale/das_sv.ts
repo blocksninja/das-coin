@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Das addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina Das-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your Tribe addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina Tribe-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your Das addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina Das-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Tribe addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina Tribe-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Das will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>Das kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Das stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
+        <translation>Tribe kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Tribe stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core
+        <source>Tribe Core</source>
+        <translation>Tribe Core
 </translation>
     </message>
     <message>
@@ -244,8 +244,8 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a Das address</source>
-        <translation>Skicka mynt till en Das-adress</translation>
+        <source>Send coins to a Tribe address</source>
+        <translation>Skicka mynt till en Tribe-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and das: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och Das:-URI:s)</translation>
+        <translation>Begär betalningar (genererar QR-koder och Tribe:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Das Core</source>
-        <translation>&amp;Om Das Core</translation>
+        <source>&amp;About Tribe Core</source>
+        <translation>&amp;Om Tribe Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Das</source>
-        <translation>Anpassa konfigurationsalternatv för Das</translation>
+        <source>Modify configuration options for Tribe</source>
+        <translation>Anpassa konfigurationsalternatv för Tribe</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your Das addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Das-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Tribe addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Tribe-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Das addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Das-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified Tribe addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Tribe-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -405,15 +405,15 @@
     </message>
     <message>
         <source>Open a das: URI or payment request</source>
-        <translation>Öppna en Das-URI eller betalningsbegäran</translation>
+        <translation>Öppna en Tribe-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Das Core help message to get a list with possible Das command-line options</source>
-        <translation>Visa Das Core-hjälpmeddelandet för att få en lista med möjliga Das-kommandoradalternativ</translation>
+        <source>Show the Tribe Core help message to get a list with possible Tribe command-line options</source>
+        <translation>Visa Tribe Core-hjälpmeddelandet för att få en lista med möjliga Tribe-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Darksend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Das:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Tribe's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Tribe:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Das:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Tribe's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Tribe:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Das's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Das:s konfigurationsskärm</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Tribe's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Tribe:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Das address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Das-adress.</translation>
+        <source>The entered address "%1" is not a valid Tribe address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Tribe-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core
+        <source>Tribe Core</source>
+        <translation>Tribe Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Das Core.</source>
-        <translation>Välkommen till Das Core.</translation>
+        <source>Welcome to Tribe Core.</source>
+        <translation>Välkommen till Tribe Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Das Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Das Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Tribe Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Tribe Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Das Core will download and store a copy of the Das block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Das Core kommer att laddas ned och lagra en kopia av Das:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Tribe Core will download and store a copy of the Tribe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Tribe Core kommer att laddas ned och lagra en kopia av Tribe:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start Das after logging in to the system.</source>
-        <translation>Starta Das automatiskt efter systeminloggning.</translation>
+        <source>Automatically start Tribe after logging in to the system.</source>
+        <translation>Starta Tribe automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Das on system login</source>
-        <translation>&amp;Starta Das vid systeminloggning</translation>
+        <source>&amp;Start Tribe on system login</source>
+        <translation>&amp;Starta Tribe vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of Das to keep anonymized</source>
-        <translation>Mängd Das att bibehålla anonymiserade</translation>
+        <source>Amount of Tribe to keep anonymized</source>
+        <translation>Mängd Tribe att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the Das client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna Das:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the Tribe client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna Tribe:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,8 +1101,8 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Das.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Das startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Tribe.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Tribe startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Das network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Das-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tribe network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Tribe-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the Das debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Dass avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the Tribe debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Tribes avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the Das RPC console.</source>
-        <translation>Välkommen till Dass RPC-konsol.</translation>
+        <source>Welcome to the Tribe RPC console.</source>
+        <translation>Välkommen till Tribes RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Das network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Das-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tribe network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Tribe-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Das address</source>
-        <translation>Varning: Ogiltig Das-adress</translation>
+        <source>Warning: Invalid Tribe address</source>
+        <translation>Varning: Ogiltig Tribe-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Das network.</source>
-        <translation>Ett meddelande som bifogades till Das: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Das-nätverket.</translation>
+        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>Ett meddelande som bifogades till Tribe: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Tribe-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/das/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Das Core is shutting down...</source>
-        <translation>Das Core stängs ned...</translation>
+        <source>Tribe Core is shutting down...</source>
+        <translation>Tribe Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Das address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Das-adress</translation>
+        <source>Sign the message to prove you own this Tribe address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Tribe-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Das address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Das-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Tribe address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Tribe-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/das/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Das Core</source>
-        <translation>Das Core
+        <source>Tribe Core</source>
+        <translation>Tribe Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Das Core developers</source>
-        <translation>Das Core-utvecklarna</translation>
+        <source>The Tribe Core developers</source>
+        <translation>Tribe Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Das Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Das Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Tribe Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Tribe Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Das Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Das Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Tribe Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Tribe Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Das Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Das Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Tribe Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Tribe Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

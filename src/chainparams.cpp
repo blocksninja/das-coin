@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -87,8 +87,8 @@ public:
         consensus.BIP34Height = 74;
         consensus.BIP34Hash = uint256S("0x00000b3fcc080c02d1f2932c000bb15bd3cdd061847e610f6657ec838a6463d0");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Das: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // Das: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Tribe: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // Tribe: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 
@@ -126,17 +126,17 @@ public:
         vSeeds.push_back(CDNSSeedData("das-seed-02.blocks.ninja", "13.95.198.229"));
 
 
-        // Das addresses start with 'D'
+        // Tribe addresses start with 'D'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
-        // Das script addresses start with '7'
+        // Tribe script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
-        // Das private keys start with '7' or 'X'
+        // Tribe private keys start with '7' or 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,204);
-        // Das BIP32 pubkeys start with 'dpub'
+        // Tribe BIP32 pubkeys start with 'dpub'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xFD)(0xA9)(0x26).convert_to_container<std::vector<unsigned char> >();
-        // Das BIP32 prvkeys start with 'dprv'
+        // Tribe BIP32 prvkeys start with 'dprv'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0xFD)(0xA4)(0xEA).convert_to_container<std::vector<unsigned char> >();
-        // Das BIP44 coin type is '5'
+        // Tribe BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >(); 
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -187,8 +187,8 @@ public:
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x00000042659e3b49cdf35b2162d396f25b79e32d3b77792a7ef3a297e8e4e79a");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Das: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // Das: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Tribe: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // Tribe: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -282,8 +282,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Das: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // Das: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Tribe: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // Tribe: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains

@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```das-cli getinfo```
 
-and comparing with the official explorer at http://explorer.das.org/chain/Das
+and comparing with the official explorer at http://explorer.das.org/chain/Tribe
 
 ### Local
 

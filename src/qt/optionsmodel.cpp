@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -121,16 +121,16 @@ void OptionsModel::Init(bool resetSettings)
         addOverriddenOption("-privatesendrounds");
     nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
 
-    if (!settings.contains("nAnonymizeDasAmount")) {
+    if (!settings.contains("nAnonymizeTribeAmount")) {
         // for migration from old settings
         if (!settings.contains("nAnonymizeDarkcoinAmount"))
-            settings.setValue("nAnonymizeDasAmount", 1000);
+            settings.setValue("nAnonymizeTribeAmount", 1000);
         else
-            settings.setValue("nAnonymizeDasAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
+            settings.setValue("nAnonymizeTribeAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
     }
-    if (!SoftSetArg("-anonymizedasamount", settings.value("nAnonymizeDasAmount").toString().toStdString()))
+    if (!SoftSetArg("-anonymizedasamount", settings.value("nAnonymizeTribeAmount").toString().toStdString()))
         addOverriddenOption("-anonymizedasamount");
-    nAnonymizeDasAmount = settings.value("nAnonymizeDasAmount").toInt();
+    nAnonymizeTribeAmount = settings.value("nAnonymizeTribeAmount").toInt();
 
     if (!settings.contains("fPrivateSendMultiSession"))
         settings.setValue("fPrivateSendMultiSession", fPrivateSendMultiSession);
@@ -253,8 +253,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fShowAdvancedPSUI;
         case PrivateSendRounds:
             return settings.value("nPrivateSendRounds");
-        case AnonymizeDasAmount:
-            return settings.value("nAnonymizeDasAmount");
+        case AnonymizeTribeAmount:
+            return settings.value("nAnonymizeTribeAmount");
         case ShowMasternodesTab:
             return settings.value("fShowMasternodesTab");
         case PrivateSendMultiSession:
@@ -394,12 +394,12 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 Q_EMIT privateSendRoundsChanged();
             }
             break;
-        case AnonymizeDasAmount:
-            if (settings.value("nAnonymizeDasAmount") != value)
+        case AnonymizeTribeAmount:
+            if (settings.value("nAnonymizeTribeAmount") != value)
             {
-                nAnonymizeDasAmount = value.toInt();
-                settings.setValue("nAnonymizeDasAmount", nAnonymizeDasAmount);
-                Q_EMIT anonymizeDasAmountChanged();
+                nAnonymizeTribeAmount = value.toInt();
+                settings.setValue("nAnonymizeTribeAmount", nAnonymizeTribeAmount);
+                Q_EMIT anonymizeTribeAmountChanged();
             }
             break;
         case ShowMasternodesTab:

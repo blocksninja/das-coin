@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CDasNetwork: TRIBE NETWORK (ROOT)
+	CTribeNetwork: TRIBE NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CDasProject> vecProjects;
+		vector<CTribeProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CDasProject:
+	CTribeProject:
 	has:
 		name
 		employees

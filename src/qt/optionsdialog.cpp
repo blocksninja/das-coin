@@ -201,7 +201,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->showAdvancedPSUI, OptionsModel::ShowAdvancedPSUI);
     mapper->addMapping(ui->coinControlFeatures, OptionsModel::CoinControlFeatures);
     mapper->addMapping(ui->privateSendRounds, OptionsModel::PrivateSendRounds);
-    mapper->addMapping(ui->anonymizeDas, OptionsModel::AnonymizeDasAmount);
+    mapper->addMapping(ui->anonymizeTribe, OptionsModel::AnonymizeTribeAmount);
     mapper->addMapping(ui->privateSendMultiSession, OptionsModel::PrivateSendMultiSession);
 
     /* Network */

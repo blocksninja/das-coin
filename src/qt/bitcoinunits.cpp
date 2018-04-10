@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case TRIBE: return QString("Das");
-            case mTRIBE: return QString("Milli-Das (1 / 1" THIN_SP_UTF8 "000)");
-            case uTRIBE: return QString("Micro-Das (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Das (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRIBE: return QString("Tribe");
+            case mTRIBE: return QString("Milli-Tribe (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRIBE: return QString("Micro-Tribe (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Tribe (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case TRIBE: return QString("TestDass");
-            case mTRIBE: return QString("Milli-TestDas (1 / 1" THIN_SP_UTF8 "000)");
-            case uTRIBE: return QString("Micro-TestDas (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestDas (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRIBE: return QString("TestTribes");
+            case mTRIBE: return QString("Milli-TestTribe (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRIBE: return QString("Micro-TestTribe (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestTribe (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

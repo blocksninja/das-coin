@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Das"
-            VALUE "FileDescription",    "Das Core (GUI node for Das)"
+            VALUE "CompanyName",        "Tribe"
+            VALUE "FileDescription",    "Tribe Core (GUI node for Tribe)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "das-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "das-qt.exe"
-            VALUE "ProductName",        "Das Core"
+            VALUE "ProductName",        "Tribe Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

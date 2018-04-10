@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -116,7 +116,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Das address (e.g. %1)").arg("D7zxptPwmJgEcFjRQurAe4tpqSHCLpLHUL"));
+    widget->setPlaceholderText(QObject::tr("Enter a Tribe address (e.g. %1)").arg("D7zxptPwmJgEcFjRQurAe4tpqSHCLpLHUL"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -623,15 +623,15 @@ boost::filesystem::path static StartupShortcutPath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Das.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Tribe.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Das (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Das (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Tribe (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Tribe (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Das*.lnk
+    // check for Tribe*.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -767,7 +767,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Das\n";
+            optionFile << "Name=Tribe\n";
         else
             optionFile << strprintf("Name=Bitcoin (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));

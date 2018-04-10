@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // DasNetwork - is the root node
-    DasNetwork = 1000,
-    DasNetworkVariable = 1001,
+    // TribeNetwork - is the root node
+    TribeNetwork = 1000,
+    TribeNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

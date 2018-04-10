@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between das-cli and dasd)
- * of a given instance of the Das system.
+ * of a given instance of the Tribe system.
  */
 class CBaseChainParams
 {

@@ -1,4 +1,4 @@
-Das Core version 0.12.1 is now available from:
+Tribe Core version 0.12.1 is now available from:
 
   <https://www.das.org/downloads/>
 
@@ -10,7 +10,7 @@ softfork, various bugfixes and updated translations.
 Older releases
 --------------
 
-Das was previously known as Darkcoin.
+Tribe was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -184,7 +184,7 @@ Thanks to everyone who directly contributed to this release:
 - Alex Morcos
 - BtcDrak
 - Jonas Schnelli
-- Luke Dasjr
+- Luke Tribejr
 - MarcoFalke
 - Mark Friedenbach
 - NicolasDorier
@@ -200,10 +200,10 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-Das Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
-to Das.
+Tribe Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
+to Tribe.
 
-Das Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Tribe Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
 These release are considered obsolete. Old changelogs can be found here:
 

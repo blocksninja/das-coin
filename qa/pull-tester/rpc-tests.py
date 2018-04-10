@@ -129,7 +129,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # TODO: works, needs das_hash
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Das
+    # 'replace-by-fee.py', # RBF is disabled in Tribe
 ]
 
 #Enable ZMQ tests

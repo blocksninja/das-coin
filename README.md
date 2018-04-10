@@ -1,26 +1,26 @@
-Das Core staging tree 0.12.1
+Tribe Core staging tree 0.12.1
 
 [Official Forum](https://bitcointalk.org/index.php?topic=1988059.0).
 ===============================
 
 
-What is Das?
+What is Tribe?
 ----------------
 
-Das is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Das uses peer-to-peer technology
+Tribe is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Tribe uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Das Core is the name of the open
+are carried out collectively by the network. Tribe Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Das Core software, see https://github.com/blocksninja/das-coin.
+the Tribe Core software, see https://github.com/blocksninja/das-coin.
 
 
 License
 -------
 
-Das Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Tribe Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -28,7 +28,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/blocksninja/das-coin/tags) are created to indicate new official,
-stable release versions of Das Core.
+stable release versions of Tribe Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

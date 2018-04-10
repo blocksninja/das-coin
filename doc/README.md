@@ -1,15 +1,15 @@
-Das Core 0.12.1
+Tribe Core 0.12.1
 =====================
 
-This is the official reference wallet for Das digital currency and comprises the backbone of the Das peer-to-peer network. You can [download Das Core](https://www.das.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Tribe digital currency and comprises the backbone of the Tribe peer-to-peer network. You can [download Tribe Core](https://www.das.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Das on your native platform.
+The following are some helpful notes on how to run Tribe on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Das-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Tribe-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
@@ -26,18 +26,18 @@ Unpack the files into a directory, and then run das-qt.exe.
 
 ### OS X
 
-Drag Das-Core to your applications folder, and then run Das-Core.
+Drag Tribe-Core to your applications folder, and then run Tribe-Core.
 
 ### Need Help?
 
-* See the [Das documentation](https://daspay.atlassian.net/wiki/display/DOC)
+* See the [Tribe documentation](https://daspay.atlassian.net/wiki/display/DOC)
 for help and more information.
 * Ask for help on [#daspay](http://webchat.freenode.net?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=daspay).
-* Ask for help on the [DasTalk](https://dastalk.org/) forums.
+* Ask for help on the [TribeTalk](https://dastalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Das on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Tribe on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -47,7 +47,7 @@ The following are developer notes on how to build Das on your native platform. T
 
 Development
 ---------------------
-The Das repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Tribe repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -63,7 +63,7 @@ The Das repo's [root README](/README.md) contains relevant information on the de
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [DasTalk](https://dastalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [TribeTalk](https://dastalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#daspay](http://webchat.freenode.net/?channels=daspay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=daspay).
 
 ### Miscellaneous

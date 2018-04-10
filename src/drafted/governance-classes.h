@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CDasNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CTribeNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CDasNetwork : public CGovernanceObject
+class CTribeNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CDasNetwork(UniValue objIn)
+    CTribeNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: DasNetwork
+// // can be under: TribeNetwork
 // //   -- signature requirements : Key1(User)
-// class CDasNetworkVariable : public CGovernanceObject
+// class CTribeNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == DasNetwork);
+//     //     return (IsType() == TribeNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

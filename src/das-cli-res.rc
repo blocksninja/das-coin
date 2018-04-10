@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Das"
-            VALUE "FileDescription",    "das-cli (JSON-RPC client for Das Core)"
+            VALUE "CompanyName",        "Tribe"
+            VALUE "FileDescription",    "das-cli (JSON-RPC client for Tribe Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "das-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

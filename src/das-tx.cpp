@@ -47,7 +47,7 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Das Core das-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Tribe Core das-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  das-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded das transaction") + "\n" +
               "  das-tx [options] -create [commands]   " + _("Create hex-encoded das transaction") + "\n" +

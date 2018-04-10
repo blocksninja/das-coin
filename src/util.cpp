@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -102,7 +102,7 @@ namespace boost {
 
 using namespace std;
 
-//Das only features
+//Tribe only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
@@ -110,7 +110,7 @@ bool fLiteMode = false;
 bool fEnableInstantSend = true;
 int nInstantSendDepth = 5;
 int nPrivateSendRounds = 2;
-int nAnonymizeDasAmount = 1000;
+int nAnonymizeTribeAmount = 1000;
 int nLiquidityProvider = 0;
 /**
     nWalletBackups:
@@ -284,7 +284,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "das" is a composite category enabling all Das-related debug output
+            // "das" is a composite category enabling all Tribe-related debug output
             if(ptrCategory->count(string("das"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));

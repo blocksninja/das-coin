@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Das addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Das addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Tribe addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Tribe addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Das addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Das addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Tribe addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Tribe addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Das will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
-        <translation>Das will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</translation>
+        <source>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</source>
+        <translation>Tribe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dass from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Tribe Core</source>
+        <translation>Tribe Core</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -326,8 +326,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Das address</source>
-        <translation>Send coins to a Das address</translation>
+        <source>Send coins to a Tribe address</source>
+        <translation>Send coins to a Tribe address</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Das Core</source>
-        <translation>&amp;About Das Core</translation>
+        <source>&amp;About Tribe Core</source>
+        <translation>&amp;About Tribe Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Das Core</source>
-        <translation>Show information about Das Core</translation>
+        <source>Show information about Tribe Core</source>
+        <translation>Show information about Tribe Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -387,8 +387,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Das</source>
-        <translation>Modify configuration options for Das</translation>
+        <source>Modify configuration options for Tribe</source>
+        <translation>Modify configuration options for Tribe</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -452,8 +452,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Das addresses to prove you own them</source>
-        <translation>Sign messages with your Das addresses to prove you own them</translation>
+        <source>Sign messages with your Tribe addresses to prove you own them</source>
+        <translation>Sign messages with your Tribe addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -462,8 +462,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Das addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Das addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Tribe addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Tribe addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>Das Core client</source>
-        <translation>Das Core client</translation>
+        <source>Tribe Core client</source>
+        <translation>Tribe Core client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the Das Core help message to get a list with possible Das command-line options</source>
-        <translation>Show the Das Core help message to get a list with possible Das command-line options</translation>
+        <source>Show the Tribe Core help message to get a list with possible Tribe command-line options</source>
+        <translation>Show the Tribe Core help message to get a list with possible Tribe command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -617,8 +617,8 @@
     </message>
     <message numerus="yes">
         <location line="+256"/>
-        <source>%n active connection(s) to Das network</source>
-        <translation><numerusform>%n active connection to Das network</numerusform><numerusform>%n active connections to Das network</numerusform></translation>
+        <source>%n active connection(s) to Tribe network</source>
+        <translation><numerusform>%n active connection to Tribe network</numerusform><numerusform>%n active connections to Tribe network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1132,18 +1132,18 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Das&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Das&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Das&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Das&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Das&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Das&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Tribe&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1195,8 +1195,8 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Das address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Das address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Tribe address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Tribe address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Tribe Core</source>
+        <translation>Tribe Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Das Core</source>
-        <translation>About Das Core</translation>
+        <source>About Tribe Core</source>
+        <translation>About Tribe Core</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Das Core.</source>
-        <translation>Welcome to Das Core.</translation>
+        <source>Welcome to Tribe Core.</source>
+        <translation>Welcome to Tribe Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Das Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Das Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Tribe Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Tribe Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Das Core will download and store a copy of the Das block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Das Core will download and store a copy of the Das block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Tribe Core will download and store a copy of the Tribe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Tribe Core will download and store a copy of the Tribe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Tribe Core</source>
+        <translation>Tribe Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1411,13 +1411,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Das after logging in to the system.</source>
-        <translation>Automatically start Das after logging in to the system.</translation>
+        <source>Automatically start Tribe after logging in to the system.</source>
+        <translation>Automatically start Tribe after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Das on system login</source>
-        <translation>&amp;Start Das on system login</translation>
+        <source>&amp;Start Tribe on system login</source>
+        <translation>&amp;Start Tribe on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of Das to keep anonymized</source>
-        <translation>Amount of Das to keep anonymized</translation>
+        <source>Amount of Tribe to keep anonymized</source>
+        <translation>Amount of Tribe to keep anonymized</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1476,8 +1476,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Das network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Das network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Tribe network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Tribe network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Das client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Das client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Tribe client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Tribe client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,8 +1581,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Das.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Das.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Tribe.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Tribe.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1695,8 +1695,8 @@ https://www.transifex.com/projects/p/das/</translation>
         <location line="+53"/>
         <location line="+1015"/>
         <location line="+77"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Das network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Das network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tribe network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Tribe network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-843"/>
@@ -2017,8 +2017,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Das address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Das address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Tribe address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Tribe address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a Das address (e.g. %1)</source>
-        <translation>Enter a Das address (e.g. %1)</translation>
+        <source>Enter a Tribe address (e.g. %1)</source>
+        <translation>Enter a Tribe address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+760"/>
@@ -2259,8 +2259,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+76"/>
-        <source>Open the Das debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Das debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Tribe debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Tribe debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the Das RPC console.</source>
-        <translation>Welcome to the Das RPC console.</translation>
+        <source>Welcome to the Tribe RPC console.</source>
+        <translation>Welcome to the Tribe RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2601,8 +2601,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Das network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Das network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tribe network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tribe network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Das network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Das network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Tribe network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Tribe network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3186,8 +3186,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+129"/>
-        <source>Warning: Invalid Das address</source>
-        <translation>Warning: Invalid Das address</translation>
+        <source>Warning: Invalid Tribe address</source>
+        <translation>Warning: Invalid Tribe address</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3214,8 +3214,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Das address to send the payment to</source>
-        <translation>The Das address to send the payment to</translation>
+        <source>The Tribe address to send the payment to</source>
+        <translation>The Tribe address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Das network.</source>
-        <translation>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Das network.</translation>
+        <source>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</source>
+        <translation>A message that was attached to the das: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tribe network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Das Core is shutting down...</source>
-        <translation>Das Core is shutting down...</translation>
+        <source>Tribe Core is shutting down...</source>
+        <translation>Tribe Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3331,8 +3331,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Das address to sign the message with</source>
-        <translation>The Das address to sign the message with</translation>
+        <source>The Tribe address to sign the message with</source>
+        <translation>The Tribe address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3373,8 +3373,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Das address</source>
-        <translation>Sign the message to prove you own this Das address</translation>
+        <source>Sign the message to prove you own this Tribe address</source>
+        <translation>Sign the message to prove you own this Tribe address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3404,13 +3404,13 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Das address the message was signed with</source>
-        <translation>The Das address the message was signed with</translation>
+        <source>The Tribe address the message was signed with</source>
+        <translation>The Tribe address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Das address</source>
-        <translation>Verify the message to ensure it was signed with the specified Das address</translation>
+        <source>Verify the message to ensure it was signed with the specified Tribe address</source>
+        <translation>Verify the message to ensure it was signed with the specified Tribe address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/das/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Das Core</source>
-        <translation>Das Core</translation>
+        <source>Tribe Core</source>
+        <translation>Tribe Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Das Core developers</source>
-        <translation>The Das Core developers</translation>
+        <source>The Tribe Core developers</source>
+        <translation>The Tribe Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Das Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Das Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Tribe Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Tribe Core is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Das Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Das Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Tribe Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Tribe Core is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4610,8 +4610,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Das specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Das specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Tribe specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Tribe specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4739,7 +4739,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tribe Alert&quot; admin@foo.com
 </source>
         <translation>To use dasd, or the -server option to das-qt, you must set an rpcpassword in the configuration file:
 %s
@@ -4750,7 +4750,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tribe Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Das Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Das Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tribe Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tribe Core will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Das Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Das Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Tribe Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Tribe Core Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Das Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Das Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tribe Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Tribe Core</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Das Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Das Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Tribe Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Tribe Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart Das Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Das Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Tribe Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Tribe Core to complete</translation>
     </message>
     <message>
         <location line="+5"/>

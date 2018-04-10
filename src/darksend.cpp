@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The Das Core developers
+// Copyright (c) 2014-2016 The Tribe Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -40,7 +40,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - TRIBE **********
-    Copyright (c) 2014-2015, Das Developers
+    Copyright (c) 2014-2015, Tribe Developers
         eduffield - evan@das.org
         udjinm6   - udjinm6@das.org
 */
@@ -762,7 +762,7 @@ void CDarksendPool::ChargeRandomFees(){
 
                 Being that Darksend has "no fees" we need to have some kind of cost associated
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
-                allow endless transaction that would bloat Das and make it unusable. To
+                allow endless transaction that would bloat Tribe and make it unusable. To
                 stop these kinds of attacks 1 in 10 successful transactions are charged. This
                 adds up to a cost of 0.001DRK per transaction on average.
             */
@@ -1465,7 +1465,7 @@ bool CDarksendPool::DoAutomaticDenominating(bool fDryRun)
         // should have some additional amount for them
         nLowestDenom += DARKSEND_COLLATERAL*4;
 
-    CAmount nBalanceNeedsAnonymized = nAnonymizeDasAmount*COIN - pwalletMain->GetAnonymizedBalance();
+    CAmount nBalanceNeedsAnonymized = nAnonymizeTribeAmount*COIN - pwalletMain->GetAnonymizedBalance();
 
     // if balanceNeedsAnonymized is more than pool max, take the pool max
     if(nBalanceNeedsAnonymized > DARKSEND_POOL_MAX) nBalanceNeedsAnonymized = DARKSEND_POOL_MAX;
@@ -2297,7 +2297,7 @@ void CDarksendPool::UpdatedBlockTip(const CBlockIndex *pindex)
 //TODO: Rename/move to core
 void ThreadCheckDarkSendPool()
 {
-    if(fLiteMode) return; // disable all Das specific functionality
+    if(fLiteMode) return; // disable all Tribe specific functionality
 
     static bool fOneThread;
     if (fOneThread)

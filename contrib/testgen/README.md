@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Das tests.
+Utilities to generate test vectors for the data-driven Tribe tests.
 
 Usage: 
 

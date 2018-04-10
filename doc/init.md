@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/dasd`  
-Configuration file:  `~/Library/Application Support/Das/das.conf`  
-Data directory:      `~/Library/Application Support/Das`
-Lock file:           `~/Library/Application Support/Das/.lock`
+Configuration file:  `~/Library/Application Support/Tribe/das.conf`  
+Data directory:      `~/Library/Application Support/Tribe`
+Lock file:           `~/Library/Application Support/Tribe/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
