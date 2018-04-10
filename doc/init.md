@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy dasd.init to /etc/init.d/dasd. Test by running `service dasd start`.
 
 Using this script, you can adjust the path and flags to the dasd program by
-setting the DASD and FLAGS environment variables in the file
+setting the TRIBED and FLAGS environment variables in the file
 /etc/sysconfig/dasd. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

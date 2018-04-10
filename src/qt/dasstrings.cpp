@@ -77,10 +77,10 @@ QT_TRANSLATE_NOOP("das-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("das-core", ""
-"Fees (in DAS/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in TRIBE/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("das-core", ""
-"Fees (in DAS/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in TRIBE/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("das-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -167,10 +167,10 @@ QT_TRANSLATE_NOOP("das-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("das-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this transaction "
-"that are not equal 1000 DAS."),
+"that are not equal 1000 TRIBE."),
 QT_TRANSLATE_NOOP("das-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"DAS."),
+"TRIBE."),
 QT_TRANSLATE_NOOP("das-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -270,7 +270,7 @@ QT_TRANSLATE_NOOP("das-core", "Error: Wallet locked, unable to create transactio
 QT_TRANSLATE_NOOP("das-core", "Error: You already have pending entries in the PrivateSend pool"),
 QT_TRANSLATE_NOOP("das-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("das-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("das-core", "Fee (in DAS/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("das-core", "Fee (in TRIBE/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("das-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("das-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("das-core", "Found enough users, signing ( waiting %s )"),
@@ -303,7 +303,7 @@ QT_TRANSLATE_NOOP("das-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("das-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("das-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("das-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("das-core", "Keep N DAS anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("das-core", "Keep N TRIBE anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("das-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("das-core", "Last PrivateSend was too recent."),
 QT_TRANSLATE_NOOP("das-core", "Last successful PrivateSend action was too recent."),

@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DAS);
-    unitlist.append(mDAS);
-    unitlist.append(uDAS);
+    unitlist.append(TRIBE);
+    unitlist.append(mTRIBE);
+    unitlist.append(uTRIBE);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case DAS:
-    case mDAS:
-    case uDAS:
+    case TRIBE:
+    case mTRIBE:
+    case uTRIBE:
     case duffs:
         return true;
     default:
@@ -46,9 +46,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DAS: return QString("DAS");
-            case mDAS: return QString("mDAS");
-            case uDAS: return QString::fromUtf8("μDAS");
+            case TRIBE: return QString("TRIBE");
+            case mTRIBE: return QString("mTRIBE");
+            case uTRIBE: return QString::fromUtf8("μTRIBE");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -57,9 +57,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DAS: return QString("tDAS");
-            case mDAS: return QString("mtDAS");
-            case uDAS: return QString::fromUtf8("μtDAS");
+            case TRIBE: return QString("tTRIBE");
+            case mTRIBE: return QString("mtTRIBE");
+            case uTRIBE: return QString::fromUtf8("μtTRIBE");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -72,9 +72,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DAS: return QString("Das");
-            case mDAS: return QString("Milli-Das (1 / 1" THIN_SP_UTF8 "000)");
-            case uDAS: return QString("Micro-Das (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRIBE: return QString("Das");
+            case mTRIBE: return QString("Milli-Das (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRIBE: return QString("Micro-Das (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Das (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -83,9 +83,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DAS: return QString("TestDass");
-            case mDAS: return QString("Milli-TestDas (1 / 1" THIN_SP_UTF8 "000)");
-            case uDAS: return QString("Micro-TestDas (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case TRIBE: return QString("TestDass");
+            case mTRIBE: return QString("Milli-TestDas (1 / 1" THIN_SP_UTF8 "000)");
+            case uTRIBE: return QString("Micro-TestDas (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestDas (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -96,9 +96,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case DAS:  return 100000000;
-    case mDAS: return 100000;
-    case uDAS: return 100;
+    case TRIBE:  return 100000000;
+    case mTRIBE: return 100000;
+    case uTRIBE: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -108,9 +108,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case DAS: return 8;
-    case mDAS: return 5;
-    case uDAS: return 2;
+    case TRIBE: return 8;
+    case mTRIBE: return 5;
+    case uTRIBE: return 2;
     case duffs: return 0;
     default: return 0;
     }

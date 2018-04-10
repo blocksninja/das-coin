@@ -16,7 +16,7 @@ mn3 127.0.0.4:19399 92Da1aYg6sbenP6uwskJgEY2XWB5LwJ7bXRqc3UPeShtHWJDjDv db478e78
 ```
 
 In the example above:
-* the collateral for `mn1` is output `0` of transaction http://test.explorer.das.fr/tx/2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c and it has amount of 1000 DAS
+* the collateral for `mn1` is output `0` of transaction http://test.explorer.das.fr/tx/2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c and it has amount of 1000 TRIBE
 
 
 The following new RPC commands are supported:

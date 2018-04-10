@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "DAS blockchain start 27.06.2017";
+    const char* pszTimestamp = "TRIBE blockchain start 27.06.2017";
     const CScript genesisOutputScript = CScript() << ParseHex("04e36c915e0ea05649a2b2aea4c42280f1e6828c18d171f21b4fa582a2e080e09708d484fdb0d5c714cc412ea8ede91569f79c469852c92eea0f6e54737d7b4d91") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }

@@ -57,9 +57,9 @@ public:
      */
     enum Unit
     {
-        DAS,
-        mDAS,
-        uDAS,
+        TRIBE,
+        mTRIBE,
+        uTRIBE,
         duffs
     };
 

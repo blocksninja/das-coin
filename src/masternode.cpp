@@ -505,7 +505,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDos)
     }
 
     // verify that sig time is legit in past
-    // should be at least not earlier than block when 1000 DAS tx got nMasternodeMinimumConfirmations
+    // should be at least not earlier than block when 1000 TRIBE tx got nMasternodeMinimumConfirmations
     uint256 hashBlock = uint256();
     CTransaction tx2;
     GetTransaction(vin.prevout.hash, tx2, Params().GetConsensus(), hashBlock, true);
@@ -514,7 +514,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDos)
         BlockMap::iterator mi = mapBlockIndex.find(hashBlock);
         if (mi != mapBlockIndex.end() && (*mi).second)
         {
-            CBlockIndex* pMNIndex = (*mi).second; // block for 1000 DAS tx -> 1 confirmation
+            CBlockIndex* pMNIndex = (*mi).second; // block for 1000 TRIBE tx -> 1 confirmation
             CBlockIndex* pConfIndex = chainActive[pMNIndex->nHeight + Params().GetConsensus().nMasternodeMinimumConfirmations - 1]; // block where tx got nMasternodeMinimumConfirmations
             if(pConfIndex->GetBlockTime() > sigTime)
             {

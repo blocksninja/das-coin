@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CDasNetwork: DAS NETWORK (ROOT)
+	CDasNetwork: TRIBE NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CDasProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// DAS NETWORK (ROOT)
+	// TRIBE NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=DASDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=TRIBEDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

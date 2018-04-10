@@ -219,8 +219,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRIBE&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRIBE&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1090,13 +1090,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DAS</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 DAS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 TRIBE</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1000 TRIBE</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DAS</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 DAS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 TRIBE</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1000 TRIBE</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1105,18 +1105,18 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 DAS to anonymize 1000 DAS</source>
-        <translation>This option is the quickest and will cost about ~0.025 DAS to anonymize 1000 DAS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TRIBE to anonymize 1000 TRIBE</source>
+        <translation>This option is the quickest and will cost about ~0.025 TRIBE to anonymize 1000 TRIBE</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 DAS to anonymize 1000 DAS</source>
-        <translation>This option is moderately fast and will cost about 0.05 DAS to anonymize 1000 DAS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TRIBE to anonymize 1000 TRIBE</source>
+        <translation>This option is moderately fast and will cost about 0.05 TRIBE to anonymize 1000 TRIBE</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 DAS per 1000 DAS you anonymize.</source>
-        <translation>0.1 DAS per 1000 DAS you anonymize.</translation>
+        <source>0.1 TRIBE per 1000 TRIBE you anonymize.</source>
+        <translation>0.1 TRIBE per 1000 TRIBE you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -1800,8 +1800,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 DAS / 0 Rounds</source>
-        <translation>0 DAS / 0 Rounds</translation>
+        <source>0 TRIBE / 0 Rounds</source>
+        <translation>0 TRIBE / 0 Rounds</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4189,8 +4189,8 @@ https://www.transifex.com/projects/p/das/</translation>
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DAS.</source>
-        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DAS.</translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 TRIBE.</source>
+        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 TRIBE.</translation>
     </message>
 </context>
 <context>
@@ -4330,8 +4330,8 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DAS.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DAS.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 TRIBE.</source>
+        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 TRIBE.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4635,13 +4635,13 @@ https://www.transifex.com/projects/p/das/</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Fees (in DAS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in DAS/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in TRIBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in TRIBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in DAS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in DAS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in TRIBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in TRIBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4755,8 +4755,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DAS.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 DAS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 TRIBE.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 TRIBE.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4897,8 +4897,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>Fee (in DAS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in DAS/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in TRIBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in TRIBE/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5357,8 +5357,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Das Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N DAS anonymized (default: %u)</source>
-        <translation>Keep N DAS anonymized (default: %u)</translation>
+        <source>Keep N TRIBE anonymized (default: %u)</source>
+        <translation>Keep N TRIBE anonymized (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>

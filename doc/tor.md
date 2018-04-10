@@ -1,4 +1,4 @@
-TOR SUPPORT IN DAS
+TOR SUPPORT IN TRIBE
 =======================
 
 It is possible to run Das as a Tor hidden service, and connect to such services.

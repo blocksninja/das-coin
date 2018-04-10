@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "DASD" not in os.environ:
-    os.environ["DASD"] = buildDir + '/src/dasd' + EXEEXT
-if "DASCLI" not in os.environ:
-    os.environ["DASCLI"] = buildDir + '/src/das-cli' + EXEEXT
+if "TRIBED" not in os.environ:
+    os.environ["TRIBED"] = buildDir + '/src/dasd' + EXEEXT
+if "TRIBECLI" not in os.environ:
+    os.environ["TRIBECLI"] = buildDir + '/src/das-cli' + EXEEXT
 
 #Disable Windows tests by default
 if EXEEXT == ".exe" and "-win" not in opts:

@@ -39,7 +39,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - DAS **********
+/* *** BEGIN DARKSEND MAGIC - TRIBE **********
     Copyright (c) 2014-2015, Das Developers
         eduffield - evan@das.org
         udjinm6   - udjinm6@das.org

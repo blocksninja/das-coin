@@ -141,10 +141,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-DAS_ROOT=$(pwd)
+TRIBE_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the das directory
-BDB_PREFIX="${DAS_ROOT}/db4"
+BDB_PREFIX="${TRIBE_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -160,7 +160,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 
 # Configure Das Core to use our own-built instance of BDB
-cd $DAS_ROOT
+cd $TRIBE_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
 ```
