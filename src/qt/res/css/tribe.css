@@ -1604,7 +1604,7 @@ border-top: 1px solid #733983;
 }
 
 QWidget .QTabWidget QTabBar::tab {
-background-color:transparent;
+/* background-color:transparent; */
 color:#fff;
 padding-left:50px;
 padding-right:50px;
