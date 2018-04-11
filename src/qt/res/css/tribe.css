@@ -1603,8 +1603,7 @@ QWidget .QTabWidget::pane {
 border-top: 1px solid #733983;
 }
 
-QWidget .QTabWidget QTabBar::tab {
-/* background-color:transparent; */
+QWidget#MasternodeList .QTabWidget QTabBar::tab {
 color:#fff;
 padding-left:50px;
 padding-right:50px;
@@ -1615,14 +1614,4 @@ border-bottom: 0;
 
 QWidget .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
 background-color:rgba(255,255,255,25%)
-}
-
-QWidget .QTabWidget .QLineEdit#filterLineEdit { /* Text Entry Fields */
-border: 0;
-font-size:11px;
-min-height:25px;
-outline:0;
-padding:3px;
-color:#ffffff;
-background-color:rgba(255,255,255,25%);
 }
