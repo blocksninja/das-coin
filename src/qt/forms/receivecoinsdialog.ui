@@ -237,6 +237,9 @@
         <property name="tabKeyNavigation">
          <bool>false</bool>
         </property>
+        <property name="alternatingRowColors">
+         <bool>false</bool>
+        </property>
         <property name="showGrid">
          <bool>false</bool>
         </property>
